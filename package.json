@@ -16,30 +16,27 @@
     "type": "git",
     "url": "https://github.com/zacharyp/sw-legion-data.git"
   },
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "babel-node tojson.ts",
+    "json": "ts-node tojson.ts",
     "patch": "release-it patch",
     "minor": "release-it minor",
     "major": "release-it major"
   },
-  "pre-commit": [
-  ],
+  "pre-commit": ["json"],
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-flow": "^7.0.0",
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-plugin-prettier": "^2.6.0",
     "flow-bin": "^0.93.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.4",
     "release-it": "^12.3.6",
+    "ts-node": "^8.6.2",
     "typescript": "^3.8.2"
   }
 }
