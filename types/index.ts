@@ -126,6 +126,7 @@ export type Upgrades = {
   gear?: Upgrade[],
   generator?: Upgrade[],
   grenades?: Upgrade[],
+  gunner?: Upgrade[],
   hardpoint?: Upgrade[],
   heavy?: Upgrade[],
   personnel?: Upgrade[],

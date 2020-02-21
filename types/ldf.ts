@@ -27,12 +27,14 @@ export type UnitLDF = {
 };
 
 export type UpgradesLDF = {
+  armament?: LDFContainer[];
   command?: LDFContainer[];
   comms?: LDFContainer[];
   force?: LDFContainer[];
   gear?: LDFContainer[];
   generator?: LDFContainer[];
   grenades?: LDFContainer[];
+  gunner?: LDFContainer[];
   hardpoint?: LDFContainer[];
   heavy?: LDFContainer[];
   personnel?: LDFContainer[];
