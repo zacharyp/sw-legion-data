@@ -1,43 +1,45 @@
 import { Faction, Format, Rank } from '.';
 
 export type ArmyLDF = {
-  uid: string,
-  name: string,
-  description: string,
-  points: number,
-  faction: Faction,
-  format: Format,
-  favourite: boolean,
-  commander: UnitLDF[],
-  operative: UnitLDF[],
-  corps: UnitLDF[],
-  special: UnitLDF[],
-  support: UnitLDF[],
-  heavy: UnitLDF[],
+  uid: string;
+  name: string;
+  description: string;
+  points: number;
+  faction?: Faction;
+  format?: Format;
+  favourite: boolean;
+  version?: string;
+  commander: UnitLDF[];
+  operative: UnitLDF[];
+  corps: UnitLDF[];
+  special: UnitLDF[];
+  support: UnitLDF[];
+  heavy: UnitLDF[];
+  commandCards: LDFContainer[];
 };
 
 export type UnitLDF = {
-  uid: string,
-  ldf: string,
+  uid: string;
+  ldf: string;
   rank: Rank;
-  upgrades: SlotsLDF,
-  points?: number,
+  upgrades: UpgradesLDF;
+  points?: number;
 };
 
-export type SlotsLDF = {
-  command?: UpgradeLDF[],
-  comms?: UpgradeLDF[],
-  force?: UpgradeLDF[],
-  gear?: UpgradeLDF[],
-  generator?: UpgradeLDF[],
-  grenades?: UpgradeLDF[],
-  hardpoint?: UpgradeLDF[],
-  heavy?: UpgradeLDF[],
-  personnel?: UpgradeLDF[],
-  pilot?: UpgradeLDF[],
-  training?: UpgradeLDF[],
+export type UpgradesLDF = {
+  command?: LDFContainer[];
+  comms?: LDFContainer[];
+  force?: LDFContainer[];
+  gear?: LDFContainer[];
+  generator?: LDFContainer[];
+  grenades?: LDFContainer[];
+  hardpoint?: LDFContainer[];
+  heavy?: LDFContainer[];
+  personnel?: LDFContainer[];
+  pilot?: LDFContainer[];
+  training?: LDFContainer[];
 };
 
-export type UpgradeLDF = {
-  ldf: string,
+export type LDFContainer = {
+  ldf: string;
 };

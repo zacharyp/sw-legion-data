@@ -51,6 +51,8 @@ export type Army = {
   uid: string,
   name: string,
   points: number,
+  faction?: Faction,
+  format?: Format,
   favourite: boolean,
   version?: string,
   commander: Unit[],
