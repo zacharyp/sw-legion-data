@@ -16,8 +16,8 @@ You can use this data to build your own apps, army builders, web sites, etc.
 
 The easiest way to do this is via [Yarn](https://yarnpkg.com/), [npm](https://www.npmjs.com/package/legion-data)
 
-* Yarn: `yarn add legion-data`
-* npm: `npm install legion-data`
+* Yarn: `yarn add sw-legion-data`
+* npm: `npm install sw-legion-data`
 
 ## Bugs / Issues
 
