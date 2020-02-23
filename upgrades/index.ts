@@ -1,5 +1,4 @@
-
-import type { Slot, Upgrade } from '../types';
+import { Upgrade } from '../types'
 
 import Armament from './armament';
 import Command from './command';
@@ -25,8 +24,24 @@ export default {
   Grenades,
   Gunner,
   Hardpoint,
-  'Heavy Weapon': Heavy,
+  Heavy,
   Personnel,
   Pilot,
   Training,
 };
+
+export const allUpgrades: Upgrade[] = [
+  Armament,
+  Command,
+  Comms,
+  Force,
+  Gear,
+  Generator,
+  Grenades,
+  Gunner,
+  Hardpoint,
+  Heavy,
+  Personnel,
+  Pilot,
+  Training
+].reduce((a, b) => a.concat(b))

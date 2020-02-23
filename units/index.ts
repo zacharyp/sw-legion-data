@@ -1,3 +1,4 @@
+import { Unit } from '../types'
 
 import Commander from './commander';
 import Operative from './operative';
@@ -14,3 +15,5 @@ export default {
   Support,
   Heavy,
 };
+
+export const allUnits: Unit[] = [Commander, Operative, Corps, Special, Support, Heavy].reduce((a, b) => a.concat(b))
