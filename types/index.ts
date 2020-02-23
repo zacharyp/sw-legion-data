@@ -57,7 +57,7 @@ export type Slot =
   | 'generator'
   | 'grenades'
   | 'hardpoint'
-  | 'heavy'
+  | 'heavyweapon'
   | 'ordnance'
   | 'personnel'
   | 'pilot'
