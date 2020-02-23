@@ -1,4 +1,4 @@
-import { Unit } from '../types'
+import { Rank, Unit } from '../types'
 
 import Commander from './commander';
 import Operative from './operative';
@@ -7,13 +7,13 @@ import Special from './special';
 import Support from './support';
 import Heavy from './heavy';
 
-export default {
-  Commander,
-  Operative,
-  Corps,
+export const unitsRecord: Record<Rank, Unit[]> = {
+  'Commander': Commander,
+  'Operative': Operative,
+  'Corps': Corps,
   'Special Forces': Special,
-  Support,
-  Heavy,
-};
+  'Support': Support,
+  'Heavy': Heavy
+}
 
 export const allUnits: Unit[] = [Commander, Operative, Corps, Special, Support, Heavy].reduce((a, b) => a.concat(b))

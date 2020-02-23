@@ -1,7 +1,6 @@
 import { Keyword } from '../types';
 
-const keywords: Keyword[] = [
-
+export const keywords: Keyword[] = [
   {
     name: 'Agile 1',
     description: 'After you perform a standard move, gain 1 dodge token.',
@@ -587,5 +586,3 @@ const keywords: Keyword[] = [
   },
 
 ];
-
-export default keywords;

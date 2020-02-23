@@ -1,7 +1,7 @@
 
 import { CommandCard } from '../types';
 
-const cards: CommandCard[] = [
+export const commandCards: CommandCard[] = [
   {
     ldf: 'ambush',
     name: 'Ambush',
@@ -493,4 +493,3 @@ const cards: CommandCard[] = [
   },
 ];
 
-export default cards;

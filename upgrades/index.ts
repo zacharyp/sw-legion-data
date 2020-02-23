@@ -1,46 +1,49 @@
-import { Upgrade } from '../types'
+import { Slot, Upgrade } from '../types'
 
 import Armament from './armament';
 import Command from './command';
 import Comms from './comms';
+import Crew from './crew';
 import Force from './force';
 import Gear from './gear';
 import Generator from './generator';
 import Grenades from './grenades';
-import Gunner from './gunner';
 import Hardpoint from './hardpoint';
 import Heavy from './heavy';
+import Ordnance from './ordanance';
 import Personnel from './personnel';
 import Pilot from './pilot';
 import Training from './training';
 
-export default {
-  Armament,
-  Command,
-  Comms,
-  Force,
-  Gear,
-  Generator,
-  Grenades,
-  Gunner,
-  Hardpoint,
-  Heavy,
-  Personnel,
-  Pilot,
-  Training,
-};
+export const upgradesRecord: Record<Slot, Upgrade[]> = {
+  'Armament': Armament,
+  'Command': Command,
+  'Comms': Comms,
+  'Crew': Crew,
+  'Force': Force,
+  'Hardpoint': Hardpoint,
+  'Heavy Weapon': Heavy,
+  'Gear': Gear,
+  'Generator': Generator,
+  'Grenades': Grenades,
+  'Ordnance': Ordnance,
+  'Personnel': Personnel,
+  'Pilot': Pilot,
+  'Training': Training,
+}
 
 export const allUpgrades: Upgrade[] = [
   Armament,
   Command,
   Comms,
+  Crew,
   Force,
   Gear,
   Generator,
   Grenades,
-  Gunner,
   Hardpoint,
   Heavy,
+  Ordnance,
   Personnel,
   Pilot,
   Training

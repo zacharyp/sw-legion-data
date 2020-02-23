@@ -195,7 +195,7 @@ const units: Unit[] =  [
     defense: 'red',
     surge: { attack: 'hit' },
     speed: 3,
-    slots: ['Comms', 'Gunner'],
+    slots: ['Comms', 'Crew'],
     keywords: ['Arsenal 2', 'Cover 1', 'Speeder 1'],
     weapons: [
       {

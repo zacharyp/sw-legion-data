@@ -6,7 +6,7 @@ const upgrades: Upgrade[] = [
     ldf: 'a300riflegunner',
     name: 'A-300 Rifle Gunner',
     points: 9,
-    slot: 'Gunner',
+    slot: 'Crew',
     restrictions: {
       name: 'X-34 Landspeeder only',
       ldf: 'x34landspeeder',
@@ -20,7 +20,7 @@ const upgrades: Upgrade[] = [
     ldf: 'rps6rocketgunner',
     name: 'RPS-6 Rocket Gunner',
     points: 36,
-    slot: 'Gunner',
+    slot: 'Crew',
     restrictions: {
       name: 'X-34 Landspeeder only',
       ldf: 'x34landspeeder',
@@ -35,7 +35,7 @@ const upgrades: Upgrade[] = [
     ldf: 'barctwinlasergunner',
     name: 'BARC Twin Laser Gunner',
     points: 18,
-    slot: 'Gunner',
+    slot: 'Crew',
     description: 'Reduce your maximum speed by 1.',
     restrictions: {
       name: 'BARC Speeder only',
@@ -51,7 +51,7 @@ const upgrades: Upgrade[] = [
     ldf: 'barcrps6gunner',
     name: 'BARC RPS-6 Gunner',
     points: 24,
-    slot: 'Gunner',
+    slot: 'Crew',
     description: 'Reduce your maximum speed by 1.',
     restrictions: {
       name: 'BARC Speeder only',
@@ -67,7 +67,7 @@ const upgrades: Upgrade[] = [
     ldf: 'barciongunner',
     name: 'BARC Ion Gunner',
     points: 28,
-    slot: 'Gunner',
+    slot: 'Crew',
     exhaust: true,
     description: 'Reduce your maximum speed by 1.',
     restrictions: {

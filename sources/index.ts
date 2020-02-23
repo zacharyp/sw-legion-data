@@ -1,7 +1,6 @@
-
 import { Source } from '../types/source';
 
-const sources: Source[] = [
+export const sources: Source[] = [
   {
     ldf: 'legioncoreset',
     name: 'Legion Core Set',
@@ -754,4 +753,3 @@ const sources: Source[] = [
   },
 ];
 
-export default sources;
