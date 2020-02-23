@@ -47,6 +47,21 @@ export type Slot =
   | 'Crew'
   | 'Gunner';
 
+  export type SlotKey =
+  | 'armament'
+  | 'command'
+  | 'comms'
+  | 'force'
+  | 'gear'
+  | 'generator'
+  | 'grenades'
+  | 'gunner'
+  | 'hardpoint'
+  | 'heavy'
+  | 'personnel'
+  | 'pilot'
+  | 'training'
+
 export type Army = {
   uid: string,
   name: string,
