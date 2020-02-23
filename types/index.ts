@@ -126,6 +126,7 @@ export type Upgrade = {
   description?: string,
   exhaust?: boolean,
   restrictions?: { name: string, ldf: string },
+  unitTypeExclusions?: UnitType[],
   slot: Slot,
   points: number,
   printed_points?: number,
