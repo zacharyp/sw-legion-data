@@ -35,6 +35,7 @@ const upgrades: Upgrade[] = [
     points: 5,
     description:
       'When you would be issued an order, you may choose a friendly unit at range 1-2. Issue an order to the chosen unit instead.',
+    unitTypeExclusions: ['Emplacement Trooper']
   },
 ];
 
