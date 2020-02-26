@@ -752,9 +752,82 @@ export const sources: Source[] = [
     },
   },
   {
+    ldf: 'imperialstormtroopersupgrade',
+    name: 'Imperial Stormtroopers Upgrade',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+      },
+      upgrades: {
+        t21stormtrooper: 1,
+        rt97cstormtrooper: 1,
+        stormtroopercaptain: 1,
+        stormtrooperspecialist: 1,
+        smokegrenades: 1,
+        offensivepush: 1,
+      },
+    },
+  },
+  {
+    ldf: 'rebeltroopersupgrade',
+    name: 'Rebel Troopers Upgrade',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+      },
+      upgrades: {
+        sx21trooper: 1,
+        dlt20atrooper: 1,
+        rebeltroopercaptain: 1,
+        rebeltrooperspecialist: 1,
+        smokegrenades: 1,
+        offensivepush: 1,
+      },
+    },
+  },
+  {
+    ldf: 'b1battledroidsupgrade',
+    name: 'B1 Battle Droids Upgrade',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+      },
+      upgrades: {
+        radiationcannonb1trooper: 1,
+        e5sb1trooper: 1,
+        oomseriesbattledroid: 1,
+        b1securitydroid: 1,
+        commsrelay: 1,
+        integratedcommsrelay: 1,
+      },
+    },
+  },
+  {
+    ldf: 'phaseiclonetroopersupgrade',
+    name: 'Phase I Clone Troopers Upgrade',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+      },
+      upgrades: {
+        rps6phaseitrooper: 1,
+        dp23phaseitrooper: 1,
+        phaseiclonespecialist: 1,
+        phaseiclonecaptain: 1,
+        electrobinoculars: 1,
+        targetingscopes: 1,
+        smokegrenades: 1,
+      },
+    },
+  },
+  {
     ldf: 'lukeskywalker-operative',
     name: 'Luke Skywalker (Operative)',
-    wave: 7,
+    wave: 8,
     released: true,
     contents: {
       units: {
@@ -774,7 +847,7 @@ export const sources: Source[] = [
   {
     ldf: 'darthvader-operative',
     name: 'Darth Vader (Operative)',
-    wave: 7,
+    wave: 8,
     released: true,
     contents: {
       units: {
@@ -788,6 +861,43 @@ export const sources: Source[] = [
         vadersmight: 1,
         fearanddeadmen: 1,
         darknessdescends: 1,
+      },
+    },
+  },
+
+  {
+    ldf: 'cassianandorandk2SOcommander',
+    name: 'Cassian Andor and K-2SO Commander',
+    wave: 8,
+    released: false,
+    contents: {
+      units: {
+        'cassianandor': 1,
+        'k2so': 1,
+      },
+      upgrades: {
+        crackshot: 1,
+        a280cfesniperconfig: 1,
+        jynsse14blaster: 1,
+        duckandcover: 1,
+        hunter: 1,
+      },
+    },
+  },
+  {
+    ldf: 'idenversioandid10commander',
+    name: 'Iden Versio and ID10 Commander ',
+    wave: 8,
+    released: false,
+    contents: {
+      units: {
+        'idenversio': 1,
+        'id10': 1,
+      },
+      upgrades: {
+        idensdlt20arifle: 1,
+        overwatch: 1,
+        hunter: 1,
       },
     },
   },
