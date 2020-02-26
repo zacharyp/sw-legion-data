@@ -751,5 +751,45 @@ export const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'lukeskywalker-operative',
+    name: 'Luke Skywalker (Operative)',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        'lukeskywalker-operative': 1,
+      },
+      upgrades: {
+        forceguidance: 1,
+        hope: 1,
+        tenacity: 1,
+        endurance: 1,
+        youserveyourmasterwell: 1,
+        fullofsuprises: 1,
+        iamajedi: 1,
+      },
+    },
+  },
+  {
+    ldf: 'darthvader-operative',
+    name: 'Darth Vader (Operative)',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        'darthvader-operative': 1,
+      },
+      upgrades: {
+        forceguidance: 1,
+        fear: 1,
+        tenacity: 1,
+        endurance: 1,
+        vadersmight: 1,
+        fearanddeadmen: 1,
+        darknessdescends: 1,
+      },
+    },
+  },
 ];
 

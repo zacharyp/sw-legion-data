@@ -32,9 +32,8 @@ const units: Unit[] = [
         keywords: ['Pierce 2'],
       },
     ],
-    commandCards: ['sonofskywalker', 'myallyistheforce', 'returnofthejedi'],
+    commandCards: ['sonofskywalker', 'myallyistheforce', 'returnofthejedi', 'youserveyourmasterwell', 'iamajedi', 'fullofsurprises'],
   },
-
   {
     ldf: 'darthvader',
     unique: true,
@@ -61,7 +60,7 @@ const units: Unit[] = [
         keywords: ['Impact 3', 'Pierce 3'],
       },
     ],
-    commandCards: ['implacable', 'newwaystomotivatethem', 'masterofevil'],
+    commandCards: ['implacable', 'newwaystomotivatethem', 'masterofevil', 'vadersmight', 'fearanddeadmen', 'darknessdescends'],
   },
   {
     ldf: 'generalveers',

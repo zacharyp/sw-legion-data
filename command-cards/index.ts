@@ -491,5 +491,54 @@ export const commandCards: CommandCard[] = [
       'Clone Captain Rex gains Inspire 2 and 2 surge tokens. When Clone Captain Rex activates, he recovers.',
     keywords: ['Inspire 2'],
   },
+
+  {
+    ldf: 'youserveyourmasterwell',
+    name: 'You Serve Your Master Well',
+    pips: 1,
+    orders: 'Luke Skywalker',
+    description:
+      'Luke Skywalker gains: [action] Choose a friendly non-Commander, non-Operative trooper unit at range 1, or a suppressed enemy non-Commander, non-Operative trooper unit at range 1. Performa 1 free move or attack action with that unit. If it is an enemy unit, it can attack and start a melee with other enemy units.',
+  },
+  {
+    ldf: 'fullofsurprises',
+    name: 'Full of Surprises',
+    pips: 2,
+    orders: 'Luke Skywalker',
+    description:
+      'Luke Skywalker gains 1 dodge token. While defending, he rolls a number of additional dice equal to his courage value minus the number of suppression tokens he has.',
+  },
+  {
+    ldf: 'iamajedi',
+    name: 'I Am a Jedi',
+    pips: 3,
+    orders: 'Luke Skywalker',
+    description:
+      'Luke Skywalker gains "[Block Surge] : [Block]" and cannot perform attacks. When he is issued an order, he may choose up to 2 enemy troopers units at range 1. Those units cannot perform attacks.',
+  },
+  {
+    ldf: "vadersmight",
+    name: "Vader's Might",
+    pips: 1,
+    orders: 'Darth Vader',
+    description:
+      "Darth Vader gains: [action] Choose another non-heavy unit at range 1 and place that unit on the battlefield within range 1 and height 1 of its current position. Then, if it is an enemy unit, roll 1 white defense die for each mini in the unit. The unit suffers 1 wound for each [block] and [Block Surge] result."
+  },
+  {
+    ldf: 'fearanddeadmen',
+    name: 'Fear and Dead Men',
+    pips: 2,
+    orders: 'Darth Vader',
+    description:
+      'While Darth Vader uses Deflect, the attacker suffers 1 wound for each blank result, instead of each [Block Surge] result. When an enemy unit at range 1-2 and in line of sight of Darth Vader activates, Darth Vader gains 1 dodge token.',
+  },
+  {
+    ldf: 'darknessdescends',
+    name: 'Darkness Descends',
+    pips: 3,
+    orders: 'Darth Vader',
+    description:
+      'When Darth Vader is issued an order, he gains 2 surge tokens. This card may be revealed at the start of the Deploy Units step. If it is, it must be selected during round 1. Darth Vader gains Infiltrate and Scout 1. and he must be deployed at the end of setup.',
+  },
 ];
 
