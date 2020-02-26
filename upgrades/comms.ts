@@ -37,6 +37,15 @@ const upgrades: Upgrade[] = [
       'When you would be issued an order, you may choose a friendly unit at range 1-2. Issue an order to the chosen unit instead.',
     unitTypeExclusions: ['Emplacement Trooper']
   },
+  {
+    ldf: 'integratedcommsantenna',
+    name: 'Integrated Comms Antenna',
+    slot: 'Comms',
+    points: 3,
+    description:
+      'During the Command Phase, you can be issued orders by friendly Commander or Operative inits at range 1-4.',
+    unitTypeRestrictions: ['Droid Trooper']
+  },
 ];
 
 export default upgrades;

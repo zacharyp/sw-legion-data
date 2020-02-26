@@ -127,6 +127,7 @@ export type Upgrade = {
   exhaust?: boolean,
   restrictions?: { name: string, ldf: string },
   unitTypeExclusions?: UnitType[],
+  unitTypeRestrictions?: UnitType[],
   slot: Slot,
   points: number,
   printed_points?: number,
@@ -253,6 +254,7 @@ export type KeywordType =
   | 'Pierce 3'
   | 'Precise 1'
   | 'Precise 2'
+  | 'Poison 1'
   | 'Pulling the Strings'
   | 'Quick Thinking'
   | 'Ram 1'

@@ -372,6 +372,10 @@ export const keywords: Keyword[] = [
     description: 'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 3 keyword can cancel up to 3 block ([Block]) results.',
   },
   {
+    name: 'Poison 1',
+    description: 'A trooper wounded by an attack that includes this weapon gains 1 poison token.',
+  },
+  {
     name: 'Precise 1',
     description: 'The precise 1 keyword allows a unit to reroll additional dice when it spends an aim token.',
   },

@@ -6,6 +6,7 @@ const upgrades: Upgrade[] = [
     name: 'Duck and Cover',
     slot: 'Training',
     points: 4,
+    printed_points: 8,
     description:
       'While defending against a ranged attack, during the Apply Dodge and Cover step, you may gain 1 suppression token.',
   },
@@ -40,6 +41,14 @@ const upgrades: Upgrade[] = [
     points: 6,
     description:
       'At the end of the Activation phase, you may remove 1 suppression token.',
+  },
+  {
+    ldf: 'offensivepush',
+    name: 'Offensive Push',
+    slot: 'Training',
+    points: 4,
+    description:
+      'While performaing a move, gain Tactical 1 (After you perform a standard move, gain 1 aim token.)',
   },
 ];
 

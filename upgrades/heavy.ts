@@ -350,6 +350,122 @@ const upgrades: Upgrade[] = [
       dice: { red: 1, black: 2 },
     },
   },
+  {
+    ldf: 't21stormtrooper',
+    name: 'T-21 Stormtrooper',
+    slot: 'Heavy Weapon',
+    points: 27,
+    restrictions: { name: 'Stormtroopers only', ldf: 'stormtroopers' },
+    description: 'Add 1 T-21 Stormtrooper mini',
+    keywords: ['Critical 2'],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { white: 4 },
+    },
+  },
+  {
+    ldf: 'rt97cstormtrooper',
+    name: 'RT-97C Stormtrooper',
+    slot: 'Heavy Weapon',
+    points: 26,
+    restrictions: { name: 'Stormtroopers only', ldf: 'stormtroopers' },
+    description: 'Add 1 RT-97C Stormtrooper mini',
+    keywords: [],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { white: 3, red: 1 },
+    },
+  },
+  {
+    ldf: 'sx21trooper',
+    name: 'SX-21 Trooper',
+    slot: 'Heavy Weapon',
+    points: 20,
+    restrictions: { name: 'Rebel Troopers only', ldf: 'rebeltroopers' },
+    description: 'Add 1 SX-21 trooper figure',
+    keywords: ['Impact 1'],
+    weapon: {
+      range: { from: 1, to: 2 },
+      dice: { red: 2, white: 2 },
+    },
+  },
+  {
+    ldf: 'dlt20atrooper',
+    name: 'DLT-20A Trooper',
+    slot: 'Heavy Weapon',
+    points: 26,
+    restrictions: { name: 'Rebel Troopers only', ldf: 'rebeltroopers' },
+    description: 'Add 1 DLT-20A trooper figure',
+    keywords: ['Critical 1'],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { black: 2, white: 1 },
+    },
+  },
+  {
+    ldf: 'radiationcannonb1trooper',
+    name: 'Radiation Cannon B1 Trooper',
+    slot: 'Heavy Weapon',
+    points: 22,
+    restrictions: {
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 Radiation Cannon B1 trooper mini.',
+    keywords: ['Poison 1'],
+    weapon: {
+      range: { from: 1, to: 2 },
+      dice: { red: 2 },
+    },
+  },
+  {
+    ldf: 'e5sb1trooper',
+    name: 'E-5s B1 Trooper',
+    slot: 'Heavy Weapon',
+    points: 20,
+    restrictions: {
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 E-5s B1 trooper mini.',
+    keywords: ['Critical 1'],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'rps6phaseitrooper',
+    name: 'RPS-6 Phase I Trooper',
+    slot: 'Heavy Weapon',
+    points: 26,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 RPS-6 Phase I trooper mini.',
+    keywords: ['Cumbersome', 'Impact 2'],
+    weapon: {
+      range: { from: 2, to: 4 },
+      dice: { red: 1, black: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'dp23phaseitrooper',
+    name: 'DP-23 Phase I Trooper',
+    slot: 'Heavy Weapon',
+    points: 27,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 DP-23 Phase I trooper mini.',
+    keywords: ['Pierce 1'],
+    weapon: {
+      range: { from: 1, to: 2 },
+      dice: { black: 2, white: 1 },
+    },
+  },
 ];
 
 export default upgrades;
