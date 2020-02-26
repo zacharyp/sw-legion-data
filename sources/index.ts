@@ -801,7 +801,7 @@ export const sources: Source[] = [
         oomseriesbattledroid: 1,
         b1securitydroid: 1,
         commsrelay: 1,
-        integratedcommsrelay: 1,
+        integratedcommsattenna: 1,
       },
     },
   },
@@ -821,6 +821,24 @@ export const sources: Source[] = [
         electrobinoculars: 1,
         targetingscopes: 1,
         smokegrenades: 1,
+      },
+    },
+  },
+  {
+    ldf: 'crashedescapepodbattlefield',
+    name: 'Crashed Escape Pod Battlefield',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+        r2d2: 1,
+        c3po: 1,
+      },
+      upgrades: {
+        blastoff: 1,
+        impromptuimmolation: 1,
+        smokescreen: 1,
+        integratedcommsattenna: 1,
       },
     },
   },

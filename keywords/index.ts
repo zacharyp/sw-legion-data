@@ -50,6 +50,11 @@ export const keywords: Keyword[] = [
       'After setup, place a victory token on an enemy commander or operative. If you defeat a unit with a victory token, move that token to you. At the end of the game, if you have a victory token, gain that token.',
   },
   {
+    name: 'Calculate Odds',
+    description:
+      'Choose a friendly trooper unit at range 1 and in line of sight. It gains 1 aim, 1 dodge, and 1 suppression token.',
+  },
+  {
     name: 'Charge',
     description:
       'After you perform a move action, you may perform a free melee attack.',
@@ -82,6 +87,10 @@ export const keywords: Keyword[] = [
   {
     name: 'Cover 1',
     description: 'During the "Apply Dodge and Cover" step of a ranged attack, if the defender has the cover 1 keyword, it improves its cover by a number equal to 1.',
+  },
+  {
+    name: 'Counterpart: R2-D2',
+    description: 'While building an army, this mini must be added to an R2-D2 unit.',
   },
   {
     name: 'Cunning',
@@ -152,6 +161,10 @@ export const keywords: Keyword[] = [
     description: 'When you are issued an order, you may remove up to 2 suppression tokens.',
   },
   {
+    name: 'Distract',
+    description: 'Choose an enemy trooper unit at range 1-2 and in line of sight. Until the end of the round, you lose INCONSPICUOUS and when that unit performs an attack, it must attack you, if able.',
+  },
+  {
     name: 'Emergency Stims',
     description:
       'During an attack, when you would suffer wounds, prevent up to 2 wounds and place an equal number of wound tokens on this card instead. If you do, at the end of your activation, discard each token on this card and suffer wounds equal to the number of tokens discarded.',
@@ -205,6 +218,10 @@ export const keywords: Keyword[] = [
   {
     name: 'Generator 1',
     description: 'During the End Phase, flip 1 inactive shield token',
+  },
+  {
+    name: 'Grounded',
+    description: 'You cannot climb or clamber',
   },
   {
     name: 'Guardian 2',
@@ -271,6 +288,11 @@ export const keywords: Keyword[] = [
     name: 'Impervious',
     description:
       'While defending, if the attack pool has Pierce X, roll x additional defense dice.',
+  },
+  {
+    name: 'Inconspicuous',
+    description:
+      'When an enemy unit performs an attack, if you have at least 1 suppression token, it must attack another unit, if able. During your Rally step, you may choose not to remove your suppression tokens',
   },
   {
     name: 'Indomitable',
@@ -447,6 +469,10 @@ export const keywords: Keyword[] = [
   {
     name: 'Sentinel',
     description: 'Your standby range is 1-3.',
+  },
+  {
+    name: 'Secret Mission',
+    description: 'Once per game, if you are within an enemy deployment zone, place 1 victory token on you. At the end of the game, if you have a victory token, gain that token.',
   },
   {
     name: 'Sharpshooter 1',

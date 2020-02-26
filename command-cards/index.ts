@@ -540,5 +540,34 @@ export const commandCards: CommandCard[] = [
     description:
       'When Darth Vader is issued an order, he gains 2 surge tokens. This card may be revealed at the start of the Deploy Units step. If it is, it must be selected during round 1. Darth Vader gains Infiltrate and Scout 1. and he must be deployed at the end of setup.',
   },
+  {
+    ldf: 'blastoff',
+    name: 'Blast Off!',
+    pips: 1,
+    orders: 'R2-D2',
+    description:
+      'R2-D2 increases his maximum speed by 1, and gains 1 dodge token, 1 suppression token, Disengage, and Card Action icon-2Jump 1',
+  }, 
+  {
+    ldf: 'impromptuimmolation',
+    name: 'Impromptu Immolation',
+    pips: 2,
+    orders: 'R2-D2',
+    description:
+      "After R2-D2 performs an attack, he may perform a free move action. During R2-D2's activation, he gains the following weapon",
+    weapon: {
+      range: { from: 0, to: 1 },
+      dice: { white: 2 },
+      keywords: ['Suppressive', 'Spray', 'Blast'],
+    },
+  },
+  {
+    ldf: 'smokescreen',
+    name: 'Smoke Screen',
+    pips: 3,
+    orders: 'R2-D2',
+    description:
+      'When R2-D2 issues an order to another friendliy trooper unit, it may perform speed-1-move. At the start of the Activation Phase, R2-D2 may perfom the following: Smoke 1',
+  }, 
 ];
 
