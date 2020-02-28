@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from 'fs';
-import { keywords, units, upgrades, commandCards, sources } from '../src/index';
+import { keywords, units, upgrades, commandCards, sources } from '../index';
 
 const unifiedData = {
   units: units,
@@ -11,11 +11,11 @@ const unifiedData = {
 
 const dataJson = JSON.stringify(unifiedData);
 
-mkdir('src/out', err => {
+mkdir('out', err => {
   if (err && err.code !== 'EEXIST') console.error(err);
 });
 
-writeFile('src/out/legion-data.json', dataJson, err => {
+writeFile('out/legion-data.json', dataJson, err => {
   if (err) console.error(err);
-  console.log('Data written to file src/out/legion-data.json');
+  console.log('Data written to file out/legion-data.json');
 });
