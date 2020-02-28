@@ -16,11 +16,11 @@
     "type": "git",
     "url": "https://github.com/zacharyp/sw-legion-data.git"
   },
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "ts-node tojson.ts",
+    "json": "ts-node --skip-project scripts/tojson.ts",
     "patch": "release-it patch",
     "minor": "release-it minor",
     "major": "release-it major"
