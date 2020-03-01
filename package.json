@@ -16,7 +16,12 @@
     "type": "git",
     "url": "https://github.com/zacharyp/sw-legion-data.git"
   },
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "module": "lib-esm/index.js",
+  "files": [
+    "lib",
+    "lib-esm"
+  ],
   "scripts": {
     "clean": "shx rm -rf _bundles lib lib-esm",
     "build": "yarn clean && tsc && tsc -m es6 --outDir lib-esm && webpack && yarn json",

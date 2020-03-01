@@ -36,7 +36,3 @@ node_modules/
 
 # Yarn Integrity file
 .yarn-integrity
-
-lib
-lib-esm
-_bundles
