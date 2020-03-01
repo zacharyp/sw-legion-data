@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "target": "es5",
-    "module": "es6",
+    "lib": ["ES2015", "DOM"],
+    "sourceMap": true,
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "lib",
     "strict": true
   },
   "exclude": [
-    "dist",
+    "lib",
+    "lib-esm",
     "scripts/*"
   ]
 }
