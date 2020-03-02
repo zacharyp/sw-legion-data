@@ -345,7 +345,7 @@ var units = [
         commandCards: ['trainedinyourjediarts', 'supremecommander', 'crushthem'],
     },
     {
-        ldf: 'vwankenobi',
+        ldf: 'obiwankenobi',
         name: 'Obi-Wan Kenobi',
         unique: true,
         factions: ["republic"],
