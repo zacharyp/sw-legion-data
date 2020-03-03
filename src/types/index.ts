@@ -21,6 +21,14 @@ export type Rank =
   | 'Support'
   | 'Heavy';
 
+export type RankKey = 
+  | 'commander'
+  | 'operative'
+  | 'corps'
+  | 'special'
+  | 'support'
+  | 'heavy'
+
 export type Faction =
   | "imperial"
   | "rebel"
