@@ -3,7 +3,7 @@ export declare type AttackDice = {
     black?: number;
     red?: number;
 };
-export declare type DefenceDice = 'white' | 'red';
+export declare type DefenseDice = 'white' | 'red';
 export declare type Keyword = {
     name: string;
     description: string;
@@ -53,7 +53,7 @@ export declare type Unit = {
     wounds: number;
     courage?: number;
     resilience?: number;
-    defense: DefenceDice;
+    defense: DefenseDice;
     surge: Surge;
     speed: number;
     slots: Slot[];

@@ -4,7 +4,7 @@ export type AttackDice = {
   red?: number,
 };
 
-export type DefenceDice = 'white' | 'red';
+export type DefenseDice = 'white' | 'red';
 
 export type Keyword = {
   name: string,
@@ -106,7 +106,7 @@ export type Unit = {
   wounds: number,
   courage?: number,
   resilience?: number,
-  defense: DefenceDice,
+  defense: DefenseDice,
   surge: Surge,
   speed: number,
   slots: Slot[],
