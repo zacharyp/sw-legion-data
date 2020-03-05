@@ -4,10 +4,12 @@ var upgrades = [
         name: 'A-300 Rifle Gunner',
         points: 9,
         slot: 'Crew',
-        restrictions: {
-            name: 'X-34 Landspeeder only',
-            ldf: 'x34landspeeder',
-        },
+        restrictions: [
+            {
+                name: 'X-34 Landspeeder only',
+                ldf: 'x34landspeeder',
+            },
+        ],
         weapon: {
             range: { from: 1, to: 3 },
             dice: { white: 2 },
@@ -18,10 +20,12 @@ var upgrades = [
         name: 'RPS-6 Rocket Gunner',
         points: 36,
         slot: 'Crew',
-        restrictions: {
-            name: 'X-34 Landspeeder only',
-            ldf: 'x34landspeeder',
-        },
+        restrictions: [
+            {
+                name: 'X-34 Landspeeder only',
+                ldf: 'x34landspeeder',
+            },
+        ],
         keywords: ['Impact 2'],
         weapon: {
             range: { from: 2, to: 4 },
@@ -34,10 +38,12 @@ var upgrades = [
         points: 18,
         slot: 'Crew',
         description: 'Reduce your maximum speed by 1.',
-        restrictions: {
-            name: 'BARC Speeder only',
-            ldf: 'barcspeeder',
-        },
+        restrictions: [
+            {
+                name: 'BARC Speeder only',
+                ldf: 'barcspeeder',
+            },
+        ],
         keywords: ['Fixed: Front, Rear'],
         weapon: {
             range: { from: 1, to: 3 },
@@ -50,10 +56,12 @@ var upgrades = [
         points: 24,
         slot: 'Crew',
         description: 'Reduce your maximum speed by 1.',
-        restrictions: {
-            name: 'BARC Speeder only',
-            ldf: 'barcspeeder',
-        },
+        restrictions: [
+            {
+                name: 'BARC Speeder only',
+                ldf: 'barcspeeder',
+            },
+        ],
         keywords: ['Impact 2'],
         weapon: {
             range: { from: 2, to: 4 },
@@ -67,10 +75,12 @@ var upgrades = [
         slot: 'Crew',
         exhaust: true,
         description: 'Reduce your maximum speed by 1.',
-        restrictions: {
-            name: 'BARC Speeder only',
-            ldf: 'barcspeeder',
-        },
+        restrictions: [
+            {
+                name: 'BARC Speeder only',
+                ldf: 'barcspeeder',
+            },
+        ],
         keywords: ['Fixed: Front, Rear', 'Impact 1', 'Ion 1'],
         weapon: {
             range: { from: 1, to: 3 },

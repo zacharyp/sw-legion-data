@@ -121,10 +121,16 @@ export type UnitType =
   | 'Trooper'
   | 'Emplacement Trooper'
   | 'Creature Trooper'
+  | 'Clone Trooper'
   | 'Droid Trooper'
   | 'Vehicle'
   | 'Ground Vehicle'
   | 'Repulsor Vehicle';
+
+export type Restriction = {
+  name: string,
+  ldf: string,
+}
 
 export type Upgrade = {
   ldf: string,
@@ -133,7 +139,8 @@ export type Upgrade = {
   unique?: boolean,
   description?: string,
   exhaust?: boolean,
-  restrictions?: { name: string, ldf: string },
+  restrictions?: Restriction[],
+  factionRestrictions?: Faction[],
   unitTypeExclusions?: UnitType[],
   unitTypeRestrictions?: UnitType[],
   slot: Slot,
@@ -173,13 +180,14 @@ export type CommandCard = {
   pips: number,
   orders: string,
   description?: string,
-  restrictions?: { name: string, ldf: string },
+  restrictions?: Restriction[],
   weapon?: Weapon,
   keywords?: KeywordType[]
 };
 
 export type KeywordType =
   | 'Agile 1'
+  | 'Agile 2'
   | 'AI: Attack'
   | 'AI: Attack, Move'
   | 'AI: Dodge, Move'
@@ -191,6 +199,7 @@ export type KeywordType =
   | 'Arsenal 2'
   | 'Arsenal 3'
   | 'Barrage'
+  | 'Beam 2'
   | 'Blast'
   | 'Block'
   | 'Bounty'
@@ -207,6 +216,7 @@ export type KeywordType =
   | 'Critical 2'
   | 'Cumbersome'
   | 'Cunning'
+  | 'Cycle'
   | 'Danger Sense 3'
   | 'Danger Sense 4'
   | 'Dauntless'
@@ -225,6 +235,7 @@ export type KeywordType =
   | 'Enrage'
   | 'Enrage 4'
   | 'Expert Climber'
+  | 'Field Commander'
   | 'Fire Support'
   | 'Fixed: Front'
   | 'Fixed: Front, Rear'
@@ -257,6 +268,7 @@ export type KeywordType =
   | 'Jump 2'
   | 'Jump 3'
   | 'Leader'
+  | 'Lethal 1'
   | 'Light Transport 1: Closed'
   | 'Light Transport 1: Open'
   | 'Low Profile'
@@ -275,6 +287,7 @@ export type KeywordType =
   | 'Quick Thinking'
   | 'Ram 1'
   | 'Ready 1'
+  | 'Recharge 2'
   | 'Reconfigure'
   | 'Regenerate 3'
   | 'Relentless'
@@ -293,6 +306,7 @@ export type KeywordType =
   | 'Sharpshooter 1'
   | 'Sharpshooter 2'
   | 'Shielded'
+  | 'Shielded 2'
   | 'Sidearm: Melee'
   | 'Smoke 1'
   | 'Soresu Mastery'

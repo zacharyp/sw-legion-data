@@ -6,7 +6,7 @@ const upgrades: Upgrade[] = [
     name: 'AT-RT Laser Cannon',
     slot: 'Hardpoint',
     points: 20,
-    restrictions: { name: 'AT-RT only', ldf: 'atrt' },
+    restrictions: [{ name: 'AT-RT only', ldf: 'atrt' }],
     keywords: ['Impact 3', 'Fixed: Front'],
     weapon: {
       range: { from: 1, to: 4 },
@@ -18,7 +18,7 @@ const upgrades: Upgrade[] = [
     name: 'AT-RT Rotary Blaster',
     slot: 'Hardpoint',
     exhaust: false,
-    restrictions: { name: 'AT-RT only', ldf: 'atrt' },
+    restrictions: [{ name: 'AT-RT only', ldf: 'atrt' }],
     points: 20,
     keywords: ['Fixed: Front'],
     weapon: {
@@ -30,7 +30,7 @@ const upgrades: Upgrade[] = [
     ldf: 'atrtflamethrower',
     name: 'AT-RT Flame Thrower',
     slot: 'Hardpoint',
-    restrictions: { name: 'AT-RT only', ldf: 'atrt' },
+    restrictions: [{ name: 'AT-RT only', ldf: 'atrt' }],
     points: 20,
     keywords: ['Blast', 'Fixed: Front', 'Spray'],
     weapon: {
@@ -43,7 +43,7 @@ const upgrades: Upgrade[] = [
     name: '88 Twin Light Blaster Cannon',
     slot: 'Hardpoint',
     points: 20,
-    restrictions: { name: 'AT-ST only', ldf: 'atst' },
+    restrictions: [{ name: 'AT-ST only', ldf: 'atst' }],
     keywords: ['Impact 1', 'Fixed: Front'],
     weapon: {
       range: { from: 1, to: 3 },
@@ -55,7 +55,7 @@ const upgrades: Upgrade[] = [
     name: 'AT-ST Mortar Launcher',
     slot: 'Hardpoint',
     points: 10,
-    restrictions: { name: 'AT-ST only', ldf: 'atst' },
+    restrictions: [{ name: 'AT-ST only', ldf: 'atst' }],
     keywords: ['Suppressive', 'Fixed: Front'],
     weapon: {
       range: { from: 4 },
@@ -67,7 +67,7 @@ const upgrades: Upgrade[] = [
     name: 'DW-3 Concussion Grenade Launcher',
     slot: 'Hardpoint',
     points: 15,
-    restrictions: { name: 'AT-ST only', ldf: 'atst' },
+    restrictions: [{ name: 'AT-ST only', ldf: 'atst' }],
     keywords: ['Blast', 'Fixed: Front'],
     weapon: {
       range: { from: 1, to: 2 },
@@ -79,7 +79,7 @@ const upgrades: Upgrade[] = [
     name: 'Ax-108 Ground Buzzer',
     slot: 'Hardpoint',
     points: 10,
-    restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
+    restrictions: [{ name: 'T-47 Airspeeder only', ldf: 't47airspeeder' }],
     keywords: ['Fixed: Rear'],
     weapon: {
       range: { from: 1, to: 2 },
@@ -91,7 +91,7 @@ const upgrades: Upgrade[] = [
     name: 'Mo/Dk Power Harpoon',
     slot: 'Hardpoint',
     points: 3,
-    restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
+    restrictions: [{ name: 'T-47 Airspeeder only', ldf: 't47airspeeder' }],
     keywords: ['Impact 1', 'Fixed: Rear', 'Tow Cable'],
     weapon: {
       range: { from: 1, to: 2 },
@@ -103,10 +103,10 @@ const upgrades: Upgrade[] = [
     name: 'DLT-19 Rifle Pintle',
     slot: 'Hardpoint',
     points: 18,
-    restrictions: {
+    restrictions: [{
       name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
       ldf: 'tx225gavwoccupiercombatassaulttank',
-    },
+    }],
     keywords: ['Impact 1'],
     weapon: {
       range: {
@@ -123,10 +123,10 @@ const upgrades: Upgrade[] = [
     name: 'RT-97C Rifle Pintle',
     slot: 'Hardpoint',
     points: 14,
-    restrictions: {
+    restrictions: [{
       name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
       ldf: 'tx225gavwoccupiercombatassaulttank',
-    },
+    }],
     weapon: {
       range: {
         from: 1,
@@ -143,10 +143,10 @@ const upgrades: Upgrade[] = [
     name: 'Mark II Medium Blaster',
     slot: 'Hardpoint',
     points: 34,
-    restrictions: {
+    restrictions: [{
       name: 'X-34 Landspeeder only',
       ldf: 'x34landspeeder',
-    },
+    }],
     keywords: ['Fixed: Front'],
     weapon: {
       range: {
@@ -164,10 +164,10 @@ const upgrades: Upgrade[] = [
     slot: 'Hardpoint',
     points: 38,
     exhaust: true,
-    restrictions: {
+    restrictions: [{
       name: 'X-34 Landspeeder only',
       ldf: 'x34landspeeder',
-    },
+    }],
     keywords: ['Fixed: Front', 'Impact 1', 'Ion 1'],
     weapon: {
       range: {
@@ -177,6 +177,46 @@ const upgrades: Upgrade[] = [
       dice: {
         white: 4,
         black: 1,
+      },
+    },
+  },
+  {
+    ldf: 'tx130beamcannonturret',
+    name: 'TX-130 Beam Cannon Turret',
+    slot: 'Hardpoint',
+    points: 30,
+    restrictions: [{
+      name: 'TX-130 Saber-class Fighter Tank only',
+      ldf: 'tx130saberclassfightertank',
+    }],
+    keywords: ['Beam 2'],
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        red: 2,
+      },
+    },
+  },
+  {
+    ldf: 'tx130twinlaserturret',
+    name: 'TX-130 Twin Laser Turret',
+    slot: 'Hardpoint',
+    points: 14,
+    restrictions: [{
+      name: 'TX-130 Saber-class Fighter Tank only',
+      ldf: 'tx130saberclassfightertank',
+    }],
+    keywords: ['Critical 1'],
+    weapon: {
+      range: {
+        from: 1,
+        to: 3,
+      },
+      dice: {
+        black: 3,
       },
     },
   },

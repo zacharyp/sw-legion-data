@@ -243,7 +243,7 @@ export const commandCards: CommandCard[] = [
     name: 'Sabotaged Communications',
     pips: 1,
     orders: '1 Special Forces or Operative Unit',
-    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    restrictions: [{ name: 'Rebel only', ldf: 'rebels' }],
     description:
       'Your opponent must issue orders to 1 fewer unit than is indicated on their command card to a minimum of 1.',
   },
@@ -252,7 +252,7 @@ export const commandCards: CommandCard[] = [
     name: 'Turning the Tide',
     pips: 2,
     orders: '2 Support or Heavy Units',
-    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    restrictions: [{ name: 'Rebel only', ldf: 'rebels' }],
     description: 'Each friendly support or heavy unit gains Inspire 2.',
   },
   {
@@ -260,7 +260,7 @@ export const commandCards: CommandCard[] = [
     name: 'Covering Fire',
     pips: 3,
     orders: '3 Corps Units',
-    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    restrictions: [{ name: 'Rebel only', ldf: 'rebels' }],
     description:
       'After a friendly corps unit performs a ranged attack, another friendly unit at range 1-2 may gain 1 dodge token.',
   },
@@ -269,7 +269,7 @@ export const commandCards: CommandCard[] = [
     name: 'Covert Observation',
     pips: 1,
     orders: '1 Special Forces or Operative Unit',
-    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    restrictions: [{ name: 'Imperial only', ldf: 'empire' }],
     description:
       "Look at up to 2 random command cards from an opponent's hand.",
   },
@@ -278,7 +278,7 @@ export const commandCards: CommandCard[] = [
     name: 'Coordinated Fire',
     pips: 3,
     orders: '3 Corps Units',
-    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    restrictions: [{ name: 'Imperial only', ldf: 'empire' }],
     description:
       'After a friendly corps unit performs a ranged attack, if it spent 1 or more aim tokens, another friendly unit at range 1–2 may gain 1 aim token.',
   },

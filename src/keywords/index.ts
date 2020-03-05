@@ -8,6 +8,10 @@ export const keywords: Keyword[] = [
     description: 'After you perform a standard move, gain 1 dodge token.',
   },
   {
+    name: 'Agile 2',
+    description: 'After you perform a standard move, gain 2 dodge tokens.',
+  },
+  {
     name: 'AI: Attack',
     description:
       'Unless you have a faceup order token, your first action must be an attack, if able.',
@@ -42,14 +46,19 @@ export const keywords: Keyword[] = [
       'While attacking, each model on this unit can use up to 2 of its weapons',
   },
   {
-    name: 'Blast',
-    description:
-      'During the "Apply Dodge and Cover" step of an attack, the defender cannot use light or heavy cover to cancel hit ([hit]) results produced by an attack pool that contains a die that was contributed by a weapon that has the blast keyword.',
-  },
-  {
     name: 'Barrage',
     description:
       'If you do not use [Arsenel] during your activation, you can perform up to 2 attack actions.',
+  },
+  {
+    name: 'Beam 2',
+    description:
+      'After performing an attack with this weapon, you may perform up to 2 extra attack using only this weapon. Each attack must be against an enemy unit that is in line of sight, has not already defended, and is at range 1 of the previous defender.',
+  },
+  {
+    name: 'Blast',
+    description:
+      'During the "Apply Dodge and Cover" step of an attack, the defender cannot use light or heavy cover to cancel hit ([hit]) results produced by an attack pool that contains a die that was contributed by a weapon that has the blast keyword.',
   },
   {
     name: 'Block',
@@ -98,16 +107,13 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Cover 1',
-    description: 'During the "Apply Dodge and Cover" step of a ranged attack, if the defender has the cover 1 keyword, it improves its cover by a number equal to 1.',
+    description:
+      'During the "Apply Dodge and Cover" step of a ranged attack, if the defender has the cover 1 keyword, it improves its cover by a number equal to 1.',
   },
   {
     name: 'Counterpart: R2-D2',
-    description: 'While building an army, this mini must be added to an R2-D2 unit.',
-  },
-  {
-    name: 'Cunning',
     description:
-      'When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.',
+      'While building an army, this mini must be added to an R2-D2 unit.',
   },
   {
     name: 'Critical 1',
@@ -123,6 +129,16 @@ export const keywords: Keyword[] = [
     name: 'Cumbersome',
     description:
       'A unit that has a weapon with the cumbersome keyword cannot both move and attack using that weapon during the same activation, unless the move is a pivot.',
+  },
+  {
+    name: 'Cunning',
+    description:
+      'When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.',
+  },
+  {
+    name: 'Cycle',
+    description:
+      'At the end of your activation, if you did not use this card, ready it.',
   },
   {
     name: 'Danger Sense 3',
@@ -141,7 +157,8 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Defend 1',
-    description: 'When a unit with the defend 1 keyword is issued an order, it gains 1 dodge tokens.',
+    description:
+      'When a unit with the defend 1 keyword is issued an order, it gains 1 dodge tokens.',
   },
   {
     name: 'Deflect',
@@ -152,29 +169,34 @@ export const keywords: Keyword[] = [
     name: 'Detachment: Rebel Veterans',
     description: '',
   },
-  { 
+  {
     name: 'Detachment: Shoretroopers',
-    description: ''
+    description: '',
   },
   {
     name: 'Detonate 1: Proton Charge',
-    description: 'After a unit controlled by any player attacks, moves, or performs an action, each unit that has a weapon with the detonate 1: charge type keyword may detonate up to 1 friendly charge tokens of the specified type'
+    description:
+      'After a unit controlled by any player attacks, moves, or performs an action, each unit that has a weapon with the detonate 1: charge type keyword may detonate up to 1 friendly charge tokens of the specified type',
   },
   {
     name: 'Detonate 1: Sonic Charge',
-    description: 'After a unit controlled by any player attacks, moves, or performs an action, each unit that has a weapon with the detonate 1: charge type keyword may detonate up to 1 friendly charge tokens of the specified type'
+    description:
+      'After a unit controlled by any player attacks, moves, or performs an action, each unit that has a weapon with the detonate 1: charge type keyword may detonate up to 1 friendly charge tokens of the specified type',
   },
   {
     name: 'Disciplined 1',
-    description: 'When you are issued an order, you may remove up to 1 suppression token.',
+    description:
+      'When you are issued an order, you may remove up to 1 suppression token.',
   },
   {
     name: 'Disciplined 2',
-    description: 'When you are issued an order, you may remove up to 2 suppression tokens.',
+    description:
+      'When you are issued an order, you may remove up to 2 suppression tokens.',
   },
   {
     name: 'Distract',
-    description: 'Choose an enemy trooper unit at range 1-2 and in line of sight. Until the end of the round, you lose INCONSPICUOUS and when that unit performs an attack, it must attack you, if able.',
+    description:
+      'Choose an enemy trooper unit at range 1-2 and in line of sight. Until the end of the round, you lose INCONSPICUOUS and when that unit performs an attack, it must attack you, if able.',
   },
   {
     name: 'Emergency Stims',
@@ -203,8 +225,12 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Expert Climber',
+    description: 'While clambering, do not roll defense dice or suffer wounds.',
+  },
+  {
+    name: 'Field Commander',
     description:
-      'While clambering, do not roll defense dice or suffer wounds.',
+      'After a friendly neutral command card is played, you can be nominated as a commander.',
   },
   {
     name: 'Fire Support',
@@ -213,15 +239,18 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Fixed: Front',
-    description: 'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
+    description:
+      'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
   },
   {
     name: 'Fixed: Rear',
-    description: 'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
+    description:
+      'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
   },
   {
     name: 'Fixed: Front, Rear',
-    description: 'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
+    description:
+      'To add a weapon to the attack pool, the defender’s unit must be inside the specified firing arc of the attacking miniature.',
   },
   {
     name: 'Full Pivot',
@@ -267,7 +296,8 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Immune: Blast',
-    description: 'While a unit with the immune: blast keyword is defending, the effects of the blast keyword are ignored.',
+    description:
+      'While a unit with the immune: blast keyword is defending, the effects of the blast keyword are ignored.',
   },
   {
     name: 'Immune: Blast, Melee',
@@ -275,11 +305,13 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Immune: Deflect',
-    description: 'During an attack with an attack pool that includes a weapon with the immune: deflect keyword, the attacking unit cannot suffer wounds due to the defending unit using the deflect ability or the soresu mastery ability.',
+    description:
+      'During an attack with an attack pool that includes a weapon with the immune: deflect keyword, the attacking unit cannot suffer wounds due to the defending unit using the deflect ability or the soresu mastery ability.',
   },
   {
     name: 'Immune: Melee',
-    description: 'Enemy units cannot be placed in base contact with a unit that has the immune: melee keyword.',
+    description:
+      'Enemy units cannot be placed in base contact with a unit that has the immune: melee keyword.',
   },
   {
     name: 'Immune: Pierce',
@@ -287,19 +319,23 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Immune: Range 1 Weapons',
-    description: 'A unit that has the immune: range 1 weapons keyword cannot be targeted by weapons that have a maximum range of 1.',
+    description:
+      'A unit that has the immune: range 1 weapons keyword cannot be targeted by weapons that have a maximum range of 1.',
   },
   {
     name: 'Impact 1',
-    description: 'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 1 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 1.',
+    description:
+      'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 1 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 1.',
   },
   {
     name: 'Impact 2',
-    description: 'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 2 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 2.',
+    description:
+      'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 2 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 2.',
   },
   {
     name: 'Impact 3',
-    description: 'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 3 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 3.',
+    description:
+      'During the "Modify Attack Dice" step of an attack, if the defender has the armor keyword, a unit whose attack pool includes a weapon that has the impact 3 keyword can modify the results of the attack roll by changing hit ([Hit]) results to critical ([Crit]) results. The unit can change a number of hit ([Hit]) results to critical ([Crit]) results up to the value of 3.',
   },
   {
     name: 'Impervious',
@@ -318,8 +354,7 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Infiltrate',
-    description:
-      'You may deploy anywhere beyond range 3 of all enemy units.',
+    description: 'You may deploy anywhere beyond range 3 of all enemy units.',
   },
   {
     name: 'Inspire 1',
@@ -333,8 +368,7 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Ion 1',
-    description:
-      'A vehicle or droid wounded by this attack gains 1 ion token.',
+    description: 'A vehicle or droid wounded by this attack gains 1 ion token.',
   },
   {
     name: 'Jedi Hunter',
@@ -362,6 +396,10 @@ export const keywords: Keyword[] = [
   {
     name: 'Leader',
     description: 'This mini is your unit leader.',
+  },
+  {
+    name: 'Lethal 1',
+    description: 'While attacking, spend up to 1 aim token to gain [Pierce 1].',
   },
   {
     name: 'Light Transport 1: Open',
@@ -400,23 +438,28 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Pierce 1',
-    description: 'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 1 keyword can cancel up to 1 block ([Block]) results.',
+    description:
+      'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 1 keyword can cancel up to 1 block ([Block]) results.',
   },
   {
     name: 'Pierce 2',
-    description: 'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 2 keyword can cancel up to 2 block ([Block]) results.',
+    description:
+      'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 2 keyword can cancel up to 2 block ([Block]) results.',
   },
   {
     name: 'Pierce 3',
-    description: 'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 3 keyword can cancel up to 3 block ([Block]) results.',
+    description:
+      'During the "Modify Defense Dice" step of an attack, a unit whose attack pool includes a weapon that has the pierce 3 keyword can cancel up to 3 block ([Block]) results.',
   },
   {
     name: 'Poison 1',
-    description: 'A trooper wounded by an attack that includes this weapon gains 1 poison token.',
+    description:
+      'A trooper wounded by an attack that includes this weapon gains 1 poison token.',
   },
   {
     name: 'Precise 1',
-    description: 'The precise 1 keyword allows a unit to reroll additional dice when it spends an aim token.',
+    description:
+      'The precise 1 keyword allows a unit to reroll additional dice when it spends an aim token.',
   },
   {
     name: 'Pulling the Strings',
@@ -429,11 +472,16 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Ram 1',
-    description: 'While a unit with the ram x keyword performs an attack, during the "Modify Attack Dice" step, it may change 1 attack die results to critical ([Crit]) results if it performed at least 1 full standard move at its maximum speed during the same activation as this attack.',
+    description:
+      'While a unit with the ram x keyword performs an attack, during the "Modify Attack Dice" step, it may change 1 attack die results to critical ([Crit]) results if it performed at least 1 full standard move at its maximum speed during the same activation as this attack.',
   },
   {
     name: 'Ready 1',
     description: 'After you perform a standby action, gain 1 aim tokens.',
+  },
+  {
+    name: 'Recharge 2',
+    description: 'When you recover, flip 2 inactive shield tokens',
   },
   {
     name: 'Reconfigure',
@@ -446,8 +494,7 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Reliable 1',
-    description:
-      'At the start of the Activation Phase, gain 1 surge token.',
+    description: 'At the start of the Activation Phase, gain 1 surge token.',
   },
   {
     name: 'Relentless',
@@ -502,7 +549,8 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Secret Mission',
-    description: 'Once per game, if you are within an enemy deployment zone, place 1 victory token on you. At the end of the game, if you have a victory token, gain that token.',
+    description:
+      'Once per game, if you are within an enemy deployment zone, place 1 victory token on you. At the end of the game, if you have a victory token, gain that token.',
   },
   {
     name: 'Sharpshooter 1',
@@ -519,13 +567,18 @@ export const keywords: Keyword[] = [
     description: 'You have 4 shield tokens.',
   },
   {
+    name: 'Shielded 2',
+    description: 'You have 2 shield tokens.',
+  },
+  {
     name: 'Sidearm: Melee',
     description:
       'While performing a melee attack, this model can only use the weapon on this card.',
   },
   {
     name: 'Smoke 1',
-    description: 'A unit that has the smoke x keyword can perform the smoke 1 card action. To perform this action, the unit places 1 smoke tokens within range 1 and in line of sight of its unit leader.',
+    description:
+      'A unit that has the smoke x keyword can perform the smoke 1 card action. To perform this action, the unit places 1 smoke tokens within range 1 and in line of sight of its unit leader.',
   },
   {
     name: 'Soresu Mastery',
@@ -587,7 +640,8 @@ export const keywords: Keyword[] = [
     description:
       'Choose up to 1 friendly trooper unit at range 1. Each chosen unit gains a dodge token.',
     action: true,
-  },  {
+  },
+  {
     name: 'Take Cover 2',
     description:
       'Choose up to 2 friendly trooper units at range 1. Each chosen unit gains a dodge token.',
@@ -627,7 +681,8 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Versatile',
-    description: 'Some ranged weapons have the versatile keyword. Units can perform attacks with a versatile weapon even while engaged.',
+    description:
+      'Some ranged weapons have the versatile keyword. Units can perform attacks with a versatile weapon even while engaged.',
   },
   {
     name: 'Weak Point 1: Rear',
@@ -649,5 +704,4 @@ export const keywords: Keyword[] = [
     description:
       'When you activate, you may increase you maximum speed to 3. If you do, until the end of the round, you gain Cover 2 and cannot attack or flip active shield tokens',
   },
-
 ];

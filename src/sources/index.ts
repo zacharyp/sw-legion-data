@@ -884,7 +884,6 @@ export const sources: Source[] = [
       },
     },
   },
-
   {
     ldf: 'cassianandorandk2SOcommander',
     name: 'Cassian Andor and K-2SO Commander',
@@ -918,6 +917,85 @@ export const sources: Source[] = [
         idensdlt20arifle: 1,
         overwatch: 1,
         hunter: 1,
+      },
+    },
+  },
+  {
+    ldf: 'aattradefederationbattletank',
+    name: 'AAT Trade Federation Battle Tank Unit Expansion',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+        'aattradefederationbattletank': 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        lokdurd: 1,
+        oomseriesdroidpilot: 1,
+        tseriestacticaldroidpilot: 1,
+        bunkerbustershells: 1,
+        highenergyshells: 1,
+        armorpiercingshells: 1,
+      },
+    },
+  },
+  {
+    ldf: 'tx130saberclassfightertank',
+    name: 'TX-130 Saber-class Fighter Tank Unit Expansion',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+        'tx130saberclassfightertank': 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        aaylasecura: 1,
+        plokoon: 1,
+        veteranclonepilot: 1,
+        bunkerbustershells: 1,
+        highenergyshells: 1,
+        armorpiercingshells: 1,
+        tx130beamcannonturret: 1,
+        tx130twinlaserturret: 1,
+      },
+    },
+  },
+  {
+    ldf: 'b2superbattlebattledroids',
+    name: 'B2 Super Battle Droids Unit Expansion',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+        'b2superbattlebattledroids': 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        integratedcommsattenna: 1,
+        b2acmtrooper: 1,
+        b2hatrooper: 1,
+        b2superbattledroid: 1,
+      },
+    },
+  },
+  {
+    ldf: 'phaseiiclonetroopers',
+    name: 'Phase II Clone Troopers Unit Expansion',
+    wave: 8,
+    released: true,
+    contents: {
+      units: {
+        'phaseiiclonetroopers': 1,
+      },
+      upgrades: {
+        grapplinghooks: 1,
+        impactgrenades: 1,
+        overwatch: 1,
+        phaseiimortartrooper: 1,
+        z6phaseiitrooper: 1,
+        phaseiiclonetrooper: 1,
       },
     },
   },

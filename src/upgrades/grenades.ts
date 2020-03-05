@@ -45,6 +45,19 @@ const upgrades: Upgrade[] = [
       'You gain [Card Action] Smoke 1 (Place 1 smoke token within range 1 and in line of sight of your unit leader.)',
     keywords: ['Smoke 1']
   },
+  {
+    ldf: 'empdroidpoppers',
+    name: 'EMP "Droid Poppers"',
+    slot: 'Grenades',
+    points: 3,
+    description:
+      'While',
+    keywords: ['Ion 1'],
+    weapon: {
+      range: { from: 1 },
+      dice: { black: 1 },
+    },
+  },
 ];
 
 export default upgrades;
