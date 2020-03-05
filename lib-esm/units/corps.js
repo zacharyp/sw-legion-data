@@ -236,7 +236,7 @@ var units = [
         factions: ["imperial"],
         points: 36,
         rank: 'Corps',
-        type: 'Trooper',
+        type: 'Emplacement Trooper',
         minis: 1,
         wounds: 3,
         courage: 2,
