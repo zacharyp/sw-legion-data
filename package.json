@@ -33,7 +33,6 @@
     "major": "release-it major"
   },
   "pre-commit": [
-    "build"
   ],
   "devDependencies": {
     "pnp-webpack-plugin": "^1.6.4",
