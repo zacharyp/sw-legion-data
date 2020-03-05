@@ -10,7 +10,11 @@ export var keywords = [
     },
     {
         name: 'AI: Attack, Move',
-        description: 'Unless you have a faceup order token, your first action must be an attack, if able.',
+        description: 'Unless you have a faceup order token, your first action must be an attack or a move.',
+    },
+    {
+        name: 'AI: Dodge, Move',
+        description: 'Unless you have a faceup order token, your first action must be a dodge or a move.',
     },
     {
         name: 'Arm 1: Proton Charge',
@@ -31,6 +35,10 @@ export var keywords = [
     {
         name: 'Blast',
         description: 'During the "Apply Dodge and Cover" step of an attack, the defender cannot use light or heavy cover to cancel hit ([hit]) results produced by an attack pool that contains a die that was contributed by a weapon that has the blast keyword.',
+    },
+    {
+        name: 'Barrage',
+        description: 'If you do not use [Arsenel] during your activation, you can perform up to 2 attack actions.',
     },
     {
         name: 'Block',
@@ -213,6 +221,10 @@ export var keywords = [
         description: 'While attacking, if each weapon in your attack pool has High Velocity, the defender cannot spend dodge tokens.',
     },
     {
+        name: 'Hover: Ground',
+        description: 'You can reverse, strafe, and standby. You are treated as a ground vehicle by other units.',
+    },
+    {
         name: 'Immune: Blast',
         description: 'While a unit with the immune: blast keyword is defending, the effects of the blast keyword are ignored.',
     },
@@ -372,6 +384,10 @@ export var keywords = [
         description: 'At the end of your activation, roll 1 white defense die for each wound token you have, up to 3. For each Defense Surge or Block result, remove 1 wound token.',
     },
     {
+        name: 'Reliable 1',
+        description: 'At the start of the Activation Phase, gain 1 surge token.',
+    },
+    {
         name: 'Relentless',
         description: 'After you perform a move action, you may perform a free attack action.',
     },
@@ -398,6 +414,14 @@ export var keywords = [
     {
         name: 'Scout 1',
         description: 'After you deploy, you may perform a speed 1 move.',
+    },
+    {
+        name: 'Scout 2',
+        description: 'After you deploy, you may perform a speed 2 move.',
+    },
+    {
+        name: 'Scout 3',
+        description: 'After you deploy, you may perform a speed 3 move.',
     },
     {
         name: 'Scouting Party 2',
@@ -520,11 +544,15 @@ export var keywords = [
     },
     {
         name: 'Weak Point 1: Rear',
-        description: "While defending, if the attacker's unit leader is inside your rear arc, the attack pool gains <strong>IMPACT 1</strong>",
+        description: "While defending, if the attacker's unit leader is inside your rear arc, the attack pool gains [Impact 1]",
+    },
+    {
+        name: 'Weak Point 2: Rear',
+        description: "While defending, if the attacker's unit leader is inside your rear arc, the attack pool gains [Impact 2]",
     },
     {
         name: 'Weak Point 1: Sides',
-        description: "While defending, if the attacker's unit leader is inside your side arcs, the attack pool gains Impact 1",
+        description: "While defending, if the attacker's unit leader is inside your side arcs, the attack pool gains [Impact 1]",
     },
     {
         name: 'Wheel Mode',

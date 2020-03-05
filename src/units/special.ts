@@ -247,6 +247,62 @@ const units: Unit[] = [
       },
     ],
   },
+  {
+    ldf: 'imperialdeathtroopersstriketeam',
+    name: 'BX-Series Droid Commandos Strike Team',
+    factions: ['separatist'],
+    points: 68,
+    rank: 'Special Forces',
+    type: 'Droid Trooper',
+    minis: 1,
+    wounds: 1,
+    courage: 2,
+    defense: 'red',
+    surge: { },
+    speed: 3,
+    slots: [
+      'Heavy Weapon',
+    ],
+    keywords: ['AI: Dodge, Move', 'Heavy Weapon Team', 'Impervious', 'Scale', 'Scout 3', 'Sharpshooter 1'],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'Commando E-5 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { white: 1 },
+      },
+    ],
+  },
+  {
+    ldf: 'imperialdeathtroopers',
+    name: 'BX-Series Droid Commandos',
+    factions: ['separatist'],
+    points: 68,
+    rank: 'Special Forces',
+    type: 'Droid Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 2,
+    defense: 'red',
+    surge: { },
+    speed: 3,
+    slots: [
+      'Heavy Weapon',
+      'Training',
+    ],
+    keywords: ['AI: Dodge, Move', 'Impervious'],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;
