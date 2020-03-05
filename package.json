@@ -1,6 +1,6 @@
 {
   "name": "sw-legion-data",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "An easy-to-use collection of data for Star Wars: Legion game by Fantasy Flight Games",
   "homepage": "https://github.com/zacharyp/sw-legion-data",
   "bugs": {
@@ -32,8 +32,7 @@
     "minor": "release-it minor",
     "major": "release-it major"
   },
-  "pre-commit": [
-  ],
+  "pre-commit": [],
   "devDependencies": {
     "pnp-webpack-plugin": "^1.6.4",
     "pre-commit": "^1.2.2",
