@@ -114,7 +114,10 @@ const upgrades: Upgrade[] = [
     name: 'DH-447 Sniper',
     slot: 'Heavy Weapon',
     points: 28,
-    restrictions: [{ name: 'Rebel Commandos only', ldf: 'rebelcommandos' }],
+    restrictions: [
+      { name: 'Rebel Commandos only', ldf: 'rebelcommandos' },
+      { name: 'Rebel Commandos only', ldf: 'rebelcommandosstriketeam' },
+    ],
     description: 'Add 1 DH-447 Sniper mini',
     keywords: ['High Velocity', 'Pierce 1'],
     weapon: {
@@ -127,7 +130,10 @@ const upgrades: Upgrade[] = [
     name: 'Proton Charge Saboteur',
     slot: 'Heavy Weapon',
     points: 26,
-    restrictions: [{ name: 'Rebel Commandos only', ldf: 'rebelcommandos' }],
+    restrictions: [
+      { name: 'Rebel Commandos only', ldf: 'rebelcommandos' },
+      { name: 'Rebel Commandos only', ldf: 'rebelcommandosstriketeam' },
+    ],
     description: 'Add 1 Proton Charge Saboteur mini',
     keywords: [
       'Arm 1: Proton Charge',
@@ -164,7 +170,10 @@ const upgrades: Upgrade[] = [
     name: 'DLT-19x Sniper',
     slot: 'Heavy Weapon',
     points: 28,
-    restrictions: [{ name: 'Scout Troopers only', ldf: 'scouttroopers' }],
+    restrictions: [
+      { name: 'Scout Troopers only', ldf: 'scouttroopers' },
+      { name: 'Scout Troopers only', ldf: 'scouttroopersstriketeam' },
+    ],
     description: 'Add 1 DLT-19x sniper mini.',
     keywords: ['High Velocity', 'Pierce 1'],
     weapon: {
@@ -177,7 +186,10 @@ const upgrades: Upgrade[] = [
     name: 'Sonic Charge Saboteur',
     slot: 'Heavy Weapon',
     points: 26,
-    restrictions: [{ name: 'Scout Troopers only', ldf: 'scouttroopers' }],
+    restrictions: [
+      { name: 'Scout Troopers only', ldf: 'scouttroopers' },
+      { name: 'Scout Troopers only', ldf: 'scouttroopersstriketeam' },
+    ],
     description: 'Add 1 sonic charge saboteur mini.',
     keywords: [
       'Arm 1: Sonic Charge',
@@ -584,6 +596,10 @@ const upgrades: Upgrade[] = [
       {
         name: 'ARC Troopers only',
         ldf: 'arctroopers',
+      },
+      {
+        name: 'ARC Troopers only',
+        ldf: 'arctroopersstriketeam',
       },
     ],
     description: 'Add 1 DP-15x ARC trooper mini.',
