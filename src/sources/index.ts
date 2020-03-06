@@ -896,7 +896,11 @@ export const sources: Source[] = [
       },
       upgrades: {
         crackshot: 1,
+        sacrifice: 1,
+        laststand: 1,
+        volunteermission: 1,
         a280cfesniperconfig: 1,
+        a280cfepistolconfig: 1,
         jynsse14blaster: 1,
         duckandcover: 1,
         hunter: 1,

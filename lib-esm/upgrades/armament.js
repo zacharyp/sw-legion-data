@@ -206,6 +206,49 @@ var upgrades = [
             dice: { red: 1, white: 1 },
         },
     },
+    {
+        ldf: 'a280cfepistolconfig',
+        name: 'A280-CFE Pistol Config',
+        points: 10,
+        restrictions: [{ name: 'Cassian Andor only', ldf: 'cassianandor' }],
+        slot: 'Armament',
+        weapon: {
+            name: 'A280-CFE Pistol Config',
+            range: { from: 1, to: 2 },
+            dice: { red: 2, black: 1 },
+            keywords: ['Pierce 1', 'Reconfigure', 'Long Shot 1'],
+        },
+    },
+    {
+        ldf: 'a280cfesniperconfig',
+        name: 'A280-CFE Sniper Config',
+        points: 10,
+        restrictions: [{ name: 'Cassian Andor only', ldf: 'cassianandor' }],
+        slot: 'Armament',
+        weapon: {
+            name: 'A280-CFE Sniper Config',
+            range: { from: 1 },
+            dice: { black: 1, red: 1 },
+            keywords: ['Cumbersome', 'High Velocity', 'Pierce 1', 'Reconfigure'],
+        },
+    },
+    {
+        ldf: 'jynsse14blaster',
+        name: "Jyn's SE-14 Blaster",
+        description: "While Jyn Erso is in your army, reduce this card's points by 5.",
+        points: 10,
+        restrictions: [
+            { name: 'Jyn Erso only', ldf: 'jynerso' },
+            { name: 'K-2SO only', ldf: 'k2so' },
+        ],
+        slot: 'Armament',
+        weapon: {
+            name: "Jyn's SE-14 Blaster",
+            range: { from: 1, to: 2 },
+            dice: { white: 5 },
+            keywords: ['Pierce 1', 'Suppressive'],
+        },
+    },
 ];
 export default upgrades;
 //# sourceMappingURL=armament.js.map

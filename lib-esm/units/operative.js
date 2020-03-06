@@ -242,6 +242,33 @@ var units = [
         ],
         commandCards: [],
     },
+    {
+        ldf: 'k2so',
+        unique: true,
+        name: 'K-2SO',
+        subtitle: 'Sardonic Security Droid',
+        factions: ["rebel"],
+        type: 'Droid Trooper',
+        points: 70,
+        rank: 'Operative',
+        minis: 1,
+        wounds: 5,
+        courage: 2,
+        defense: 'red',
+        surge: { attack: 'crit' },
+        speed: 2,
+        slots: ['Comms', 'Armament'],
+        keywords: ['Calculate Odds', 'Armor 1', 'Detachment: Cassian Andor', 'Icognito', 'Teamwork: Cassian Andor'],
+        weapons: [
+            {
+                name: 'Overpower',
+                range: { from: 0 },
+                dice: { red: 4 },
+                keywords: [],
+            },
+        ],
+        commandCards: ['sacrifice'],
+    },
 ];
 export default units;
 //# sourceMappingURL=operative.js.map

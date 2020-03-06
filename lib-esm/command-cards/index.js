@@ -506,5 +506,33 @@ export var commandCards = [
         orders: 'R2-D2',
         description: 'When R2-D2 issues an order to another friendliy trooper unit, it may perform speed-1-move. At the start of the Activation Phase, R2-D2 may perfom the following: Smoke 1',
     },
+    {
+        ldf: 'crackshot',
+        name: 'Crack Shot',
+        pips: 1,
+        orders: 'Cassian Andor',
+        description: 'Cassian Andor gains [Gunslinger] and 1 aim token. At the end of his activation, he may gain 1 supression token and he gains 1 standby token.'
+    },
+    {
+        ldf: 'sacrifice',
+        name: 'Sacrifice',
+        pips: 1,
+        orders: 'Cassian Andor & K-2SO',
+        description: "K-2SO gains [Guardian 4]. At the end of K-2SO's activation, you may choose another friendly [Commander] or [Operative] unit at range 1 and in line of sight of K-2SO. If you do, defeat K-2SO and enemy units cannon perform ranged attacks against the chosen unit until the end of this round."
+    },
+    {
+        ldf: 'laststand',
+        name: 'Last Stand',
+        pips: 2,
+        orders: 'Cassian Andor & 1 Trooper',
+        description: 'When Cassian Andor issues and order to a [Commander] or [Operative] unit, that unit gains [Indomitable] and gains 1 aim, 1 dodge, or 1 supression token for each wound token that unit has up to 3.'
+    },
+    {
+        ldf: 'volunteermission',
+        name: 'Volunteer Mission',
+        pips: 3,
+        orders: 'Cassian Andor & 2 Troopers',
+        description: 'When Cassian Andor issues an order to a [Commander], [Operative], or [Special Forces] unit, that unit recovers, gains [Danger Sense 1], and may gain 1 supression token.'
+    },
 ];
 //# sourceMappingURL=index.js.map

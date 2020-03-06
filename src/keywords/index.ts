@@ -111,6 +111,11 @@ export const keywords: Keyword[] = [
       'During the "Apply Dodge and Cover" step of a ranged attack, if the defender has the cover 1 keyword, it improves its cover by a number equal to 1.',
   },
   {
+    name: 'Covert Ops',
+    description:
+      'When you deploy, you may treat your rank as [Operative]. If you do, you gain [Infilitrate]',
+  },
+  {
     name: 'Counterpart: R2-D2',
     description:
       'While building an army, this mini must be added to an R2-D2 unit.',
@@ -171,6 +176,10 @@ export const keywords: Keyword[] = [
   },
   {
     name: 'Detachment: Shoretroopers',
+    description: '',
+  },
+  {
+    name: 'Detachment: Cassian Andor',
     description: '',
   },
   {
@@ -343,6 +352,11 @@ export const keywords: Keyword[] = [
       'While defending, if the attack pool has Pierce X, roll x additional defense dice.',
   },
   {
+    name: 'Icognito',
+    description:
+      'You cannot be attacked by enemy units beyond range 1, unless you have performed an attack or used an objective card action during this game.'
+  },
+  {
     name: 'Inconspicuous',
     description:
       'When an enemy unit performs an attack, if you have at least 1 suppression token, it must attack another unit, if able. During your Rally step, you may choose not to remove your suppression tokens',
@@ -407,6 +421,16 @@ export const keywords: Keyword[] = [
       'You may transport one friendly trooper unit that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.',
   },
   {
+    name: 'Loadout',
+    description:
+      'When you deploy, you may swap any of your equipped upgrades with your set-aside upgrades.',
+  },
+  {
+    name: 'Long Shot 1',
+    description:
+      "While attacking, spend up to 1 aim token to increase this weapons's maximum range by 1 for each aim token spent."
+  },
+  {
     name: 'Low Profile',
     description:
       'While you are defending, if you have light cover, improve your cover by 1.',
@@ -415,6 +439,11 @@ export const keywords: Keyword[] = [
     name: 'Makashi Mastery',
     description:
       'While performing a melee attack, you may reduce the Pierce value of your melee weapon by 1. If you do, the defender cannot use Immune: Pierce.',
+  },
+  {
+    name: 'Marksman',
+    description:
+      'While attacking, you can spend aim tokens to improve attack die results.'
   },
   {
     name: 'Master of the Force 1',
@@ -650,6 +679,11 @@ export const keywords: Keyword[] = [
   {
     name: 'Target 1',
     description: 'After you are issued an order, gain 1 aim token',
+  },
+  {
+    name: 'Teamwork: Cassian Andor',
+    description:
+      'While you are at range 1-2 of Cassian Andor, when you or Cassian Andor gains an aim or dodge token, then other unit gains a token of the same type.',
   },
   {
     name: 'Teamwork: Han Solo',

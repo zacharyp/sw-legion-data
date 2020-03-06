@@ -6,7 +6,7 @@ var upgrades = [
         points: 5,
         keywords: ['Blast'],
         weapon: {
-            range: { from: 1 },
+            range: { from: 1, to: 1 },
             dice: { black: 1 },
         },
     },
@@ -17,7 +17,7 @@ var upgrades = [
         points: 5,
         keywords: ['Impact 1'],
         weapon: {
-            range: { from: 1 },
+            range: { from: 1, to: 1 },
             dice: { black: 1 },
         },
     },
@@ -29,7 +29,7 @@ var upgrades = [
         description: 'While this weapon is in your attack pool, you gain attack "[surge]: [crit]."',
         keywords: ['Impact 1'],
         weapon: {
-            range: { from: 1 },
+            range: { from: 1, to: 1 },
             dice: { red: 1 },
         },
     },
@@ -49,7 +49,7 @@ var upgrades = [
         description: 'While',
         keywords: ['Ion 1'],
         weapon: {
-            range: { from: 1 },
+            range: { from: 1, to: 1 },
             dice: { black: 1 },
         },
     },
