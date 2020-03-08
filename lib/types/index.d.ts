@@ -89,7 +89,6 @@ export declare type Upgrades = {
     armament?: Upgrade[];
     command?: Upgrade[];
     comms?: Upgrade[];
-    training?: Upgrade[];
     force?: Upgrade[];
     gear?: Upgrade[];
     generator?: Upgrade[];
@@ -97,8 +96,10 @@ export declare type Upgrades = {
     gunner?: Upgrade[];
     hardpoint?: Upgrade[];
     heavy?: Upgrade[];
+    ordnance?: Upgrade[];
     personnel?: Upgrade[];
     pilot?: Upgrade[];
+    training?: Upgrade[];
 };
 export declare type Weapon = {
     name?: string;

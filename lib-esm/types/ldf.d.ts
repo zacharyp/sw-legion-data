@@ -34,6 +34,7 @@ export declare type UpgradesLDF = {
     gunner?: LDFString[];
     hardpoint?: LDFString[];
     heavy?: LDFString[];
+    ordnance?: LDFString[];
     personnel?: LDFString[];
     pilot?: LDFString[];
     training?: LDFString[];

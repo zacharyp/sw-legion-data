@@ -154,7 +154,6 @@ export type Upgrades = {
   armament?: Upgrade[],
   command?: Upgrade[],
   comms?: Upgrade[],
-  training?: Upgrade[],
   force?: Upgrade[],
   gear?: Upgrade[],
   generator?: Upgrade[],
@@ -162,8 +161,10 @@ export type Upgrades = {
   gunner?: Upgrade[],
   hardpoint?: Upgrade[],
   heavy?: Upgrade[],
+  ordnance?: Upgrade[],
   personnel?: Upgrade[],
   pilot?: Upgrade[],
+  training?: Upgrade[],
 };
 
 export type Weapon = {
