@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://www.npmjs.com/package/sw-legion-data">
+    <img alt="npm version" src="https://img.shields.io/npm/v/sw-legion-data.svg?style=flat-square"></a>
+</p>
+
 # Legion Data
 An easy-to-use collection of all data from [Star Wars: Legion miniatures game](https://www.fantasyflightgames.com/en/products/star-wars-legion/) by [Fantasy Flight Games](http://fantasyflightgames.com/).
 
