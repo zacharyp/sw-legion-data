@@ -12,7 +12,7 @@ export declare type Keyword = {
 };
 export declare type Rank = 'Commander' | 'Operative' | 'Corps' | 'Special Forces' | 'Support' | 'Heavy';
 export declare type RankKey = 'commander' | 'operative' | 'corps' | 'special' | 'support' | 'heavy';
-export declare type Faction = "imperial" | "rebel" | "separatist" | "republic";
+export declare type Faction = 'imperial' | 'rebel' | 'separatist' | 'republic';
 export declare type Side = 'light' | 'dark' | 'neutral';
 export declare type Format = 'Standard' | 'Grand' | 'Skirmish';
 export declare type Slot = 'Armament' | 'Command' | 'Comms' | 'Crew' | 'Force' | 'Hardpoint' | 'Heavy Weapon' | 'Gear' | 'Generator' | 'Grenades' | 'Ordnance' | 'Personnel' | 'Pilot' | 'Training';

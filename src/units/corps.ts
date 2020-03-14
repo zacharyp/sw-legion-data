@@ -4,7 +4,7 @@ const units: Unit[] = [
   {
     ldf: 'rebeltroopers',
     name: 'Rebel Troopers',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 40,
     rank: 'Corps',
     type: 'Trooper',
@@ -32,7 +32,7 @@ const units: Unit[] = [
   {
     ldf: 'stormtroopers',
     name: 'Stormtroopers',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 44,
     rank: 'Corps',
     type: 'Trooper',
@@ -60,7 +60,7 @@ const units: Unit[] = [
   {
     ldf: 'snowtroopers',
     name: 'Snowtroopers',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 48,
     rank: 'Corps',
     type: 'Trooper',
@@ -88,7 +88,7 @@ const units: Unit[] = [
   {
     ldf: 'fleettroopers',
     name: 'Fleet Troopers',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 44,
     rank: 'Corps',
     type: 'Trooper',
@@ -116,7 +116,7 @@ const units: Unit[] = [
   {
     ldf: 'rebelveterans',
     name: 'Rebel Veterans',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 48,
     rank: 'Corps',
     type: 'Trooper',
@@ -156,7 +156,7 @@ const units: Unit[] = [
   {
     ldf: 'markiimediumblastertrooper',
     name: 'Mark II Medium Blaster Trooper',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 38,
     rank: 'Corps',
     type: 'Emplacement Trooper',
@@ -170,7 +170,13 @@ const units: Unit[] = [
     },
     speed: 1,
     slots: ['Comms'],
-    keywords: ['Detachment: Rebel Veterans', 'Fire Support', 'Full Pivot', 'Reposition', 'Sentinel'],
+    keywords: [
+      'Detachment: Rebel Veterans',
+      'Fire Support',
+      'Full Pivot',
+      'Reposition',
+      'Sentinel',
+    ],
     weapons: [
       {
         name: 'Unarmed',
@@ -207,7 +213,7 @@ const units: Unit[] = [
   {
     ldf: 'shoretroopers',
     name: 'Shoretroopers',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 52,
     rank: 'Corps',
     type: 'Trooper',
@@ -235,7 +241,7 @@ const units: Unit[] = [
   {
     ldf: 'df90mortartrooper',
     name: 'DF-90 Mortar Trooper',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 36,
     rank: 'Corps',
     type: 'Emplacement Trooper',
@@ -246,7 +252,13 @@ const units: Unit[] = [
     surge: {},
     speed: 2,
     slots: ['Comms'],
-    keywords: ['Detachment: Shoretroopers', 'Fire Support', 'Full Pivot', 'Reposition', 'Sentinel'],
+    keywords: [
+      'Detachment: Shoretroopers',
+      'Fire Support',
+      'Full Pivot',
+      'Reposition',
+      'Sentinel',
+    ],
     weapons: [
       {
         name: 'Unarmed',
@@ -269,7 +281,7 @@ const units: Unit[] = [
   {
     ldf: 'b1battledroids',
     name: 'B1 Battle Droids',
-    factions: ["separatist"],
+    factions: ['separatist'],
     points: 36,
     rank: 'Corps',
     type: 'Droid Trooper',
@@ -297,7 +309,7 @@ const units: Unit[] = [
   {
     ldf: 'phaseiclonetroopers',
     name: 'Phase I Clone Troopers',
-    factions: ["republic"],
+    factions: ['republic'],
     points: 52,
     rank: 'Corps',
     type: 'Clone Trooper',
@@ -325,7 +337,7 @@ const units: Unit[] = [
   {
     ldf: 'b2superbattlebattledroids',
     name: 'B2 Super Battle Droids',
-    factions: ["separatist"],
+    factions: ['separatist'],
     points: 36,
     rank: 'Corps',
     type: 'Droid Trooper',
@@ -353,7 +365,7 @@ const units: Unit[] = [
   {
     ldf: 'phaseiiclonetroopers',
     name: 'Phase II Clone Troopers',
-    factions: ["republic"],
+    factions: ['republic'],
     points: 60,
     rank: 'Corps',
     type: 'Clone Trooper',
@@ -364,7 +376,7 @@ const units: Unit[] = [
     surge: {},
     speed: 2,
     slots: ['Gear', 'Grenades', 'Heavy Weapon', 'Personnel', 'Training'],
-    keywords: ['Fire Support', "Reliable 1"],
+    keywords: ['Fire Support', 'Reliable 1'],
     weapons: [
       {
         name: 'Unarmed',

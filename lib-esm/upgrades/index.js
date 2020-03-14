@@ -13,20 +13,20 @@ import Personnel from './personnel';
 import Pilot from './pilot';
 import Training from './training';
 export var upgradesRecord = {
-    'Armament': Armament,
-    'Command': Command,
-    'Comms': Comms,
-    'Crew': Crew,
-    'Force': Force,
-    'Hardpoint': Hardpoint,
+    Armament: Armament,
+    Command: Command,
+    Comms: Comms,
+    Crew: Crew,
+    Force: Force,
+    Hardpoint: Hardpoint,
     'Heavy Weapon': Heavy,
-    'Gear': Gear,
-    'Generator': Generator,
-    'Grenades': Grenades,
-    'Ordnance': Ordnance,
-    'Personnel': Personnel,
-    'Pilot': Pilot,
-    'Training': Training,
+    Gear: Gear,
+    Generator: Generator,
+    Grenades: Grenades,
+    Ordnance: Ordnance,
+    Personnel: Personnel,
+    Pilot: Pilot,
+    Training: Training,
 };
 export var allUpgrades = [
     Armament,
@@ -42,7 +42,7 @@ export var allUpgrades = [
     Ordnance,
     Personnel,
     Pilot,
-    Training
+    Training,
 ].reduce(function (a, b) { return a.concat(b); });
 export default allUpgrades;
 //# sourceMappingURL=index.js.map

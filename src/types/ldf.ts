@@ -43,4 +43,4 @@ export type UpgradesLDF = {
   training?: LDFString[];
 };
 
-export type LDFString = string
+export type LDFString = string;

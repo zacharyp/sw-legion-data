@@ -518,12 +518,12 @@ export const commandCards: CommandCard[] = [
       'Luke Skywalker gains "[Block Surge] : [Block]" and cannot perform attacks. When he is issued an order, he may choose up to 2 enemy troopers units at range 1. Those units cannot perform attacks.',
   },
   {
-    ldf: "vadersmight",
+    ldf: 'vadersmight',
     name: "Vader's Might",
     pips: 1,
     orders: 'Darth Vader',
     description:
-      "Darth Vader gains: [action] Choose another non-heavy unit at range 1 and place that unit on the battlefield within range 1 and height 1 of its current position. Then, if it is an enemy unit, roll 1 white defense die for each mini in the unit. The unit suffers 1 wound for each [block] and [Block Surge] result."
+      'Darth Vader gains: [action] Choose another non-heavy unit at range 1 and place that unit on the battlefield within range 1 and height 1 of its current position. Then, if it is an enemy unit, roll 1 white defense die for each mini in the unit. The unit suffers 1 wound for each [block] and [Block Surge] result.',
   },
   {
     ldf: 'fearanddeadmen',
@@ -548,7 +548,7 @@ export const commandCards: CommandCard[] = [
     orders: 'R2-D2',
     description:
       'R2-D2 increases his maximum speed by 1, and gains 1 dodge token, 1 suppression token, Disengage, and Card Action icon-2Jump 1',
-  }, 
+  },
   {
     ldf: 'impromptuimmolation',
     name: 'Impromptu Immolation',
@@ -576,7 +576,7 @@ export const commandCards: CommandCard[] = [
     pips: 1,
     orders: 'Cassian Andor',
     description:
-      'Cassian Andor gains [Gunslinger] and 1 aim token. At the end of his activation, he may gain 1 supression token and he gains 1 standby token.'
+      'Cassian Andor gains [Gunslinger] and 1 aim token. At the end of his activation, he may gain 1 supression token and he gains 1 standby token.',
   },
   {
     ldf: 'sacrifice',
@@ -584,7 +584,7 @@ export const commandCards: CommandCard[] = [
     pips: 1,
     orders: 'Cassian Andor & K-2SO',
     description:
-      "K-2SO gains [Guardian 4]. At the end of K-2SO's activation, you may choose another friendly [Commander] or [Operative] unit at range 1 and in line of sight of K-2SO. If you do, defeat K-2SO and enemy units cannon perform ranged attacks against the chosen unit until the end of this round."
+      "K-2SO gains [Guardian 4]. At the end of K-2SO's activation, you may choose another friendly [Commander] or [Operative] unit at range 1 and in line of sight of K-2SO. If you do, defeat K-2SO and enemy units cannon perform ranged attacks against the chosen unit until the end of this round.",
   },
   {
     ldf: 'laststand',
@@ -592,7 +592,7 @@ export const commandCards: CommandCard[] = [
     pips: 2,
     orders: 'Cassian Andor & 1 Trooper',
     description:
-      'When Cassian Andor issues and order to a [Commander] or [Operative] unit, that unit gains [Indomitable] and gains 1 aim, 1 dodge, or 1 supression token for each wound token that unit has up to 3.'
+      'When Cassian Andor issues and order to a [Commander] or [Operative] unit, that unit gains [Indomitable] and gains 1 aim, 1 dodge, or 1 supression token for each wound token that unit has up to 3.',
   },
   {
     ldf: 'volunteermission',
@@ -600,7 +600,7 @@ export const commandCards: CommandCard[] = [
     pips: 3,
     orders: 'Cassian Andor & 2 Troopers',
     description:
-      'When Cassian Andor issues an order to a [Commander], [Operative], or [Special Forces] unit, that unit recovers, gains [Danger Sense 1], and may gain 1 supression token.'
+      'When Cassian Andor issues an order to a [Commander], [Operative], or [Special Forces] unit, that unit recovers, gains [Danger Sense 1], and may gain 1 supression token.',
   },
   {
     ldf: 'incapacitate',
@@ -608,15 +608,15 @@ export const commandCards: CommandCard[] = [
     pips: 2,
     orders: 'Iden Versio',
     description:
-      "During Iden Versio's activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden's ID10 Seeker Droid. That unit gains 3 supression tokens. Then, if it is a [Corps] unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown."
-  },  
+      "During Iden Versio's activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden's ID10 Seeker Droid. That unit gains 3 supression tokens. Then, if it is a [Corps] unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown.",
+  },
   {
     ldf: 'pulsescan',
     name: 'Pulse Scan',
     pips: 1,
     orders: 'Iden Versio',
     description:
-      'Iden Versio gains [Sharpshooter 2] and 1 aim token. At the end of her activation, she gains 1 dodge token and 1 standby token.'
+      'Iden Versio gains [Sharpshooter 2] and 1 aim token. At the end of her activation, she gains 1 dodge token and 1 standby token.',
   },
   {
     ldf: 'concussiveblast',
@@ -629,7 +629,7 @@ export const commandCards: CommandCard[] = [
       range: { from: 1, to: 2 },
       dice: { red: 5 },
       keywords: ['Blast', 'Scatter', 'Suppressive'],
-    },  
+    },
   },
   {
     ldf: 'tacticalstrike',
@@ -637,7 +637,6 @@ export const commandCards: CommandCard[] = [
     pips: 3,
     orders: 'Iden Versio & 3 Troopers',
     description:
-      'When Iden Versio or a friendly [Operative] unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains [Steady] and [Tactical 1].'
+      'When Iden Versio or a friendly [Operative] unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains [Steady] and [Tactical 1].',
   },
-
 ];

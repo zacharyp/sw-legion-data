@@ -4,7 +4,7 @@ var units = [
         unique: true,
         name: 'Boba Fett',
         subtitle: 'Infamous Bounty Hunter',
-        factions: ["imperial"],
+        factions: ['imperial'],
         type: 'Trooper',
         points: 160,
         rank: 'Operative',
@@ -40,7 +40,7 @@ var units = [
     {
         ldf: 'chewbacca',
         name: 'Chewbacca',
-        factions: ["rebel"],
+        factions: ['rebel'],
         points: 95,
         printed_points: 110,
         rank: 'Operative',
@@ -52,7 +52,13 @@ var units = [
         surge: { attack: 'crit' },
         speed: 2,
         slots: ['Training', 'Training', 'Gear'],
-        keywords: ['Enrage 4', 'Expert Climber', 'Guardian 3', 'Teamwork: Han Solo', 'Unhindered'],
+        keywords: [
+            'Enrage 4',
+            'Expert Climber',
+            'Guardian 3',
+            'Teamwork: Han Solo',
+            'Unhindered',
+        ],
         weapons: [
             {
                 name: 'Overpower',
@@ -71,7 +77,7 @@ var units = [
     {
         ldf: 'sabinewren',
         name: 'Sabine Wren',
-        factions: ["rebel"],
+        factions: ['rebel'],
         points: 125,
         rank: 'Operative',
         type: 'Trooper',
@@ -101,7 +107,7 @@ var units = [
     {
         ldf: 'bossk',
         name: 'Bossk',
-        factions: ["imperial"],
+        factions: ['imperial'],
         points: 115,
         rank: 'Operative',
         type: 'Trooper',
@@ -112,7 +118,13 @@ var units = [
         surge: { attack: 'crit' },
         speed: 2,
         slots: ['Training', 'Training', 'Gear'],
-        keywords: ['Bounty', 'Enrage', 'Expert Climber', 'Regenerate 3', 'Unhindered'],
+        keywords: [
+            'Bounty',
+            'Enrage',
+            'Expert Climber',
+            'Regenerate 3',
+            'Unhindered',
+        ],
         weapons: [
             {
                 name: 'Frenzy',
@@ -134,7 +146,7 @@ var units = [
         unique: true,
         name: 'Luke Skywalker',
         subtitle: 'Jedi Knight',
-        factions: ["rebel"],
+        factions: ['rebel'],
         type: 'Trooper',
         points: 200,
         rank: 'Operative',
@@ -145,7 +157,14 @@ var units = [
         surge: { attack: 'crit' },
         speed: 2,
         slots: ['Force', 'Force', 'Force', 'Training'],
-        keywords: ['Jump 1', 'Charge', 'Deflect', 'Deflect', 'Immune: Pierce', 'Master of the Force 1'],
+        keywords: [
+            'Jump 1',
+            'Charge',
+            'Deflect',
+            'Deflect',
+            'Immune: Pierce',
+            'Master of the Force 1',
+        ],
         weapons: [
             {
                 name: "Luke's Lightsaber",
@@ -154,14 +173,21 @@ var units = [
                 keywords: ['Impact 2', 'Pierce 2'],
             },
         ],
-        commandCards: ['sonofskywalker', 'myallyistheforce', 'returnofthejedi', 'youserveyourmasterwell', 'iamajedi', 'fullofsurprises'],
+        commandCards: [
+            'sonofskywalker',
+            'myallyistheforce',
+            'returnofthejedi',
+            'youserveyourmasterwell',
+            'iamajedi',
+            'fullofsurprises',
+        ],
     },
     {
         ldf: 'darthvader-operative',
         unique: true,
         name: 'Darth Vader',
         subtitle: 'The Emperors Apprentice',
-        factions: ["imperial"],
+        factions: ['imperial'],
         type: 'Trooper',
         points: 170,
         rank: 'Operative',
@@ -172,7 +198,14 @@ var units = [
         surge: {},
         speed: 1,
         slots: ['Force', 'Force', 'Training'],
-        keywords: ['Deflect', 'Immune: Pierce', 'Jedi Hunter', 'Master of the Force 1', 'Relentless', 'Spur'],
+        keywords: [
+            'Deflect',
+            'Immune: Pierce',
+            'Jedi Hunter',
+            'Master of the Force 1',
+            'Relentless',
+            'Spur',
+        ],
         weapons: [
             {
                 name: "Vader's Lightsaber",
@@ -181,13 +214,20 @@ var units = [
                 keywords: ['Impact 3', 'Pierce 3'],
             },
             {
-                name: "Force Throw",
+                name: 'Force Throw',
                 range: { from: 1, to: 2 },
                 dice: { black: 2 },
                 keywords: ['Blast', 'Scatter'],
             },
         ],
-        commandCards: ['implacable', 'newwaystomotivatethem', 'masterofevil', 'vadersmight', 'fearanddeadmen', 'darknessdescends'],
+        commandCards: [
+            'implacable',
+            'newwaystomotivatethem',
+            'masterofevil',
+            'vadersmight',
+            'fearanddeadmen',
+            'darknessdescends',
+        ],
     },
     {
         ldf: 'r2d2',
@@ -205,10 +245,15 @@ var units = [
         surge: { attack: 'hit', defense: 'block' },
         speed: 1,
         slots: ['Comms'],
-        keywords: ['Repair 2: Capacity 2', 'Secret Mission', 'Grounded', 'Inconspicuous'],
+        keywords: [
+            'Repair 2: Capacity 2',
+            'Secret Mission',
+            'Grounded',
+            'Inconspicuous',
+        ],
         weapons: [
             {
-                name: "Electro-Shock",
+                name: 'Electro-Shock',
                 range: { from: 0 },
                 dice: { white: 3 },
                 keywords: ['Suppressive'],
@@ -234,7 +279,7 @@ var units = [
         keywords: ['Calculate Odds', 'Distract', 'Counterpart: R2-D2'],
         weapons: [
             {
-                name: "Clumsy Kick",
+                name: 'Clumsy Kick',
                 range: { from: 0 },
                 dice: { white: 1 },
                 keywords: [],
@@ -247,7 +292,7 @@ var units = [
         unique: true,
         name: 'K-2SO',
         subtitle: 'Sardonic Security Droid',
-        factions: ["rebel"],
+        factions: ['rebel'],
         type: 'Droid Trooper',
         points: 70,
         rank: 'Operative',
@@ -258,7 +303,13 @@ var units = [
         surge: { attack: 'crit' },
         speed: 2,
         slots: ['Comms', 'Armament'],
-        keywords: ['Calculate Odds', 'Armor 1', 'Detachment: Cassian Andor', 'Icognito', 'Teamwork: Cassian Andor'],
+        keywords: [
+            'Calculate Odds',
+            'Armor 1',
+            'Detachment: Cassian Andor',
+            'Icognito',
+            'Teamwork: Cassian Andor',
+        ],
         weapons: [
             {
                 name: 'Overpower',

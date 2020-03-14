@@ -238,7 +238,8 @@ const upgrades: Upgrade[] = [
   {
     ldf: 'jynsse14blaster',
     name: "Jyn's SE-14 Blaster",
-    description: "While Jyn Erso is in your army, reduce this card's points by 5.",
+    description:
+      "While Jyn Erso is in your army, reduce this card's points by 5.",
     points: 10,
     restrictions: [
       { name: 'Jyn Erso only', ldf: 'jynerso' },
@@ -256,9 +257,7 @@ const upgrades: Upgrade[] = [
     ldf: 'idenstl50repeater',
     name: "Iden's TL-50 Repeater",
     points: 15,
-    restrictions: [
-      { name: 'Iden Versio only', ldf: 'idenversio' },
-    ],
+    restrictions: [{ name: 'Iden Versio only', ldf: 'idenversio' }],
     slot: 'Armament',
     weapon: {
       name: "Iden's TL-50 Repeater",
@@ -271,9 +270,7 @@ const upgrades: Upgrade[] = [
     ldf: 'idensdlt20arifle',
     name: "Iden's DLT-20A Rifle",
     points: 15,
-    restrictions: [
-      { name: 'Iden Versio only', ldf: 'idenversio' },
-    ],
+    restrictions: [{ name: 'Iden Versio only', ldf: 'idenversio' }],
     slot: 'Armament',
     weapon: {
       name: "Iden's DLT-20A Rifle",

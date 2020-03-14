@@ -16,21 +16,21 @@ import Pilot from './pilot';
 import Training from './training';
 
 export const upgradesRecord: Record<Slot, Upgrade[]> = {
-  'Armament': Armament,
-  'Command': Command,
-  'Comms': Comms,
-  'Crew': Crew,
-  'Force': Force,
-  'Hardpoint': Hardpoint,
+  Armament: Armament,
+  Command: Command,
+  Comms: Comms,
+  Crew: Crew,
+  Force: Force,
+  Hardpoint: Hardpoint,
   'Heavy Weapon': Heavy,
-  'Gear': Gear,
-  'Generator': Generator,
-  'Grenades': Grenades,
-  'Ordnance': Ordnance,
-  'Personnel': Personnel,
-  'Pilot': Pilot,
-  'Training': Training,
-}
+  Gear: Gear,
+  Generator: Generator,
+  Grenades: Grenades,
+  Ordnance: Ordnance,
+  Personnel: Personnel,
+  Pilot: Pilot,
+  Training: Training,
+};
 
 export const allUpgrades: Upgrade[] = [
   Armament,
@@ -46,7 +46,7 @@ export const allUpgrades: Upgrade[] = [
   Ordnance,
   Personnel,
   Pilot,
-  Training
-].reduce((a, b) => a.concat(b))
+  Training,
+].reduce((a, b) => a.concat(b));
 
 export default allUpgrades;

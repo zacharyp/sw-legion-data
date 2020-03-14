@@ -5,13 +5,20 @@ import Special from './special';
 import Support from './support';
 import Heavy from './heavy';
 export var unitsRecord = {
-    'Commander': Commander,
-    'Operative': Operative,
-    'Corps': Corps,
+    Commander: Commander,
+    Operative: Operative,
+    Corps: Corps,
     'Special Forces': Special,
-    'Support': Support,
-    'Heavy': Heavy
+    Support: Support,
+    Heavy: Heavy,
 };
-export var allUnits = [Commander, Operative, Corps, Special, Support, Heavy].reduce(function (a, b) { return a.concat(b); });
+export var allUnits = [
+    Commander,
+    Operative,
+    Corps,
+    Special,
+    Support,
+    Heavy,
+].reduce(function (a, b) { return a.concat(b); });
 export default allUnits;
 //# sourceMappingURL=index.js.map

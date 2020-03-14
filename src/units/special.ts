@@ -4,7 +4,7 @@ const units: Unit[] = [
   {
     ldf: 'rebelcommandos',
     name: 'Rebel Commandos',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 60,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -32,7 +32,7 @@ const units: Unit[] = [
   {
     ldf: 'rebelcommandosstriketeam',
     name: 'Rebel Commandos Strike Team',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 20,
     printed_points: 16,
     rank: 'Special Forces',
@@ -61,7 +61,7 @@ const units: Unit[] = [
   {
     ldf: 'scouttroopers',
     name: 'Scout Troopers',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 60,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -90,7 +90,7 @@ const units: Unit[] = [
   {
     ldf: 'scouttroopersstriketeam',
     name: 'Scout Troopers Strike Team',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 20,
     printed_points: 16,
     rank: 'Special Forces',
@@ -119,7 +119,7 @@ const units: Unit[] = [
   {
     ldf: 'wookieewarriors',
     name: 'Wookiee Warriors',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 75,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -147,7 +147,7 @@ const units: Unit[] = [
   {
     ldf: 'imperialroyalguards',
     name: 'Imperial Royal Guards',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 75,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -175,7 +175,7 @@ const units: Unit[] = [
   {
     ldf: 'rebelpathfinders',
     name: 'Rebel Pathfinders',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 60,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -210,7 +210,7 @@ const units: Unit[] = [
   {
     ldf: 'imperialdeathtroopers',
     name: 'Imperial Death Troopers',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 76,
     rank: 'Special Forces',
     type: 'Trooper',
@@ -258,12 +258,17 @@ const units: Unit[] = [
     wounds: 1,
     courage: 2,
     defense: 'red',
-    surge: { },
+    surge: {},
     speed: 3,
-    slots: [
-      'Heavy Weapon',
+    slots: ['Heavy Weapon'],
+    keywords: [
+      'AI: Dodge, Move',
+      'Heavy Weapon Team',
+      'Impervious',
+      'Scale',
+      'Scout 3',
+      'Sharpshooter 1',
     ],
-    keywords: ['AI: Dodge, Move', 'Heavy Weapon Team', 'Impervious', 'Scale', 'Scout 3', 'Sharpshooter 1'],
     weapons: [
       {
         name: 'Unarmed',
@@ -288,12 +293,9 @@ const units: Unit[] = [
     wounds: 1,
     courage: 2,
     defense: 'red',
-    surge: { },
+    surge: {},
     speed: 3,
-    slots: [
-      'Heavy Weapon',
-      'Training',
-    ],
+    slots: ['Heavy Weapon', 'Training'],
     keywords: ['AI: Dodge, Move', 'Impervious'],
     weapons: [
       {
@@ -314,17 +316,16 @@ const units: Unit[] = [
     wounds: 1,
     courage: 2,
     defense: 'red',
-    surge: { },
+    surge: {},
     speed: 2,
-    slots: [
-      'Comms',
-      'Gear',
-      'Gear',
-      'Grenades',
-      'Heavy Weapon',
-      'Training',
+    slots: ['Comms', 'Gear', 'Gear', 'Grenades', 'Heavy Weapon', 'Training'],
+    keywords: [
+      'Heavy Weapon Team',
+      'Scout 2',
+      'Impervious',
+      'Sharpshooter 1',
+      'Tactical 1',
     ],
-    keywords: ['Heavy Weapon Team', 'Scout 2', 'Impervious', 'Sharpshooter 1', 'Tactical 1'],
     weapons: [
       {
         name: 'Combat Training',
@@ -354,16 +355,9 @@ const units: Unit[] = [
     wounds: 1,
     courage: 2,
     defense: 'red',
-    surge: { },
+    surge: {},
     speed: 2,
-    slots: [
-      'Comms',
-      'Gear',
-      'Gear',
-      'Grenades',
-      'Heavy Weapon',
-      'Training',
-    ],
+    slots: ['Comms', 'Gear', 'Gear', 'Grenades', 'Heavy Weapon', 'Training'],
     keywords: ['Scout 2', 'Impervious', 'Sharpshooter 1', 'Tactical 1'],
     weapons: [
       {

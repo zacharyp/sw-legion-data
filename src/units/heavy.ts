@@ -4,7 +4,7 @@ const units: Unit[] = [
   {
     ldf: 't47airspeeder',
     name: 'T-47 Airspeeder',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 140,
     printed_points: 175,
     rank: 'Heavy',
@@ -16,7 +16,14 @@ const units: Unit[] = [
     surge: { defense: 'block' },
     speed: 3,
     slots: ['Pilot', 'Hardpoint', 'Comms'],
-    keywords: ['Armor', 'Arsenal 2', 'Cover 1', 'Immune: Blast, Melee', 'Speeder 2', 'Immune: Range 1 Weapons'],
+    keywords: [
+      'Armor',
+      'Arsenal 2',
+      'Cover 1',
+      'Immune: Blast, Melee',
+      'Speeder 2',
+      'Immune: Range 1 Weapons',
+    ],
     weapons: [
       {
         name: 'Ap/11 Double Laser Cannon',
@@ -30,7 +37,7 @@ const units: Unit[] = [
   {
     ldf: 'atst',
     name: 'AT-ST',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 170,
     printed_points: 195,
     rank: 'Heavy',
@@ -60,7 +67,7 @@ const units: Unit[] = [
   {
     ldf: 'tx225gavwoccupiercombatassaulttank',
     name: 'TX-225 GAVw Occupier Combat Assault Tank',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 155,
     rank: 'Heavy',
     type: 'Vehicle',
@@ -71,7 +78,13 @@ const units: Unit[] = [
     surge: {},
     speed: 1,
     slots: ['Comms', 'Hardpoint', 'Pilot'],
-    keywords: ['Armor', 'Arsenal 2', 'Weak Point 1: Sides', 'Reposition', 'Transport 1: Open'],
+    keywords: [
+      'Armor',
+      'Arsenal 2',
+      'Weak Point 1: Sides',
+      'Reposition',
+      'Transport 1: Open',
+    ],
     weapons: [
       {
         name: 'Forward Twin MK 2E/W Cannons',
@@ -90,7 +103,7 @@ const units: Unit[] = [
   {
     ldf: 'x34landspeeder',
     name: 'X-34 Landspeeder',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 75,
     rank: 'Heavy',
     type: 'Repulsor Vehicle',
@@ -101,7 +114,13 @@ const units: Unit[] = [
     surge: { attack: 'hit', defense: 'block' },
     speed: 2,
     slots: ['Comms', 'Crew', 'Crew', 'Hardpoint', 'Pilot'],
-    keywords: ['Armor 2', 'Arsenal 3', 'Cover 1', 'Light Transport 1: Open', 'Speeder 1'],
+    keywords: [
+      'Armor 2',
+      'Arsenal 3',
+      'Cover 1',
+      'Light Transport 1: Open',
+      'Speeder 1',
+    ],
     weapons: [
       {
         name: "Driver's DH- 17 Blaster Pistol",
@@ -124,7 +143,14 @@ const units: Unit[] = [
     surge: {},
     speed: 1,
     slots: ['Comms', 'Pilot', 'Ordnance', 'Ordnance'],
-    keywords: ['AI: Attack', 'Armor', 'Arsenal 2', 'Weak Point 2: Rear', 'Barrage', 'Hover: Ground'],
+    keywords: [
+      'AI: Attack',
+      'Armor',
+      'Arsenal 2',
+      'Weak Point 2: Rear',
+      'Barrage',
+      'Hover: Ground',
+    ],
     weapons: [
       {
         name: 'Lateral Anti-Personnel Lasers',
@@ -154,7 +180,14 @@ const units: Unit[] = [
     surge: {},
     speed: 2,
     slots: ['Hardpoint', 'Pilot', 'Ordnance', 'Comms'],
-    keywords: ['AI: Attack', 'Armor', 'Arsenal 2', 'Weak Point 2: Rear', 'Barrage', 'Hover: Ground'],
+    keywords: [
+      'AI: Attack',
+      'Armor',
+      'Arsenal 2',
+      'Weak Point 2: Rear',
+      'Barrage',
+      'Hover: Ground',
+    ],
     weapons: [
       {
         name: 'Twin Lateral GA-6w Lasers Cannons',

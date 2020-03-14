@@ -1,16 +1,16 @@
 export type AttackDice = {
-  white?: number,
-  black?: number,
-  red?: number,
+  white?: number;
+  black?: number;
+  red?: number;
 };
 
 export type DefenseDice = 'white' | 'red';
 
 export type Keyword = {
-  name: string,
-  description: string,
-  action?: boolean,
-  affects?: String,
+  name: string;
+  description: string;
+  action?: boolean;
+  affects?: String;
 };
 
 export type Rank =
@@ -21,19 +21,15 @@ export type Rank =
   | 'Support'
   | 'Heavy';
 
-export type RankKey = 
+export type RankKey =
   | 'commander'
   | 'operative'
   | 'corps'
   | 'special'
   | 'support'
-  | 'heavy'
+  | 'heavy';
 
-export type Faction =
-  | "imperial"
-  | "rebel"
-  | "separatist"
-  | "republic"
+export type Faction = 'imperial' | 'rebel' | 'separatist' | 'republic';
 
 export type Side = 'light' | 'dark' | 'neutral';
 
@@ -55,7 +51,7 @@ export type Slot =
   | 'Pilot'
   | 'Training';
 
-  export type SlotKey =
+export type SlotKey =
   | 'armament'
   | 'command'
   | 'comms'
@@ -69,52 +65,52 @@ export type Slot =
   | 'ordnance'
   | 'personnel'
   | 'pilot'
-  | 'training'
+  | 'training';
 
 export type Army = {
-  uid: string,
-  name: string,
-  points: number,
-  faction?: Faction,
-  format?: Format,
-  favourite: boolean,
-  version?: string,
-  commander: Unit[],
-  operative: Unit[],
-  corps: Unit[],
-  special: Unit[],
-  support: Unit[],
-  heavy: Unit[],
-  commandCards: CommandCard[],
+  uid: string;
+  name: string;
+  points: number;
+  faction?: Faction;
+  format?: Format;
+  favourite: boolean;
+  version?: string;
+  commander: Unit[];
+  operative: Unit[];
+  corps: Unit[];
+  special: Unit[];
+  support: Unit[];
+  heavy: Unit[];
+  commandCards: CommandCard[];
 };
 
-export type Surge = { attack?: 'hit' | 'crit', defense?: 'block' };
+export type Surge = { attack?: 'hit' | 'crit'; defense?: 'block' };
 
 export type Unit = {
-  uid?: string,
-  ldf: string,
-  factions: Faction[],
-  unique?: boolean,
-  name: string,
-  subtitle?: string,
-  type: UnitType,
-  points: number,
-  printed_points?: number,
-  pointsWithUpgrades?: number,
-  rank: Rank,
-  minis: number,
-  wounds: number,
-  courage?: number,
-  resilience?: number,
-  defense: DefenseDice,
-  surge: Surge,
-  speed: number,
-  slots: Slot[],
-  keywords: KeywordType[],
-  weapons: Weapon[],
-  upgrades?: Upgrades,
-  commandCards?: string[],
-  entourage?: string[],
+  uid?: string;
+  ldf: string;
+  factions: Faction[];
+  unique?: boolean;
+  name: string;
+  subtitle?: string;
+  type: UnitType;
+  points: number;
+  printed_points?: number;
+  pointsWithUpgrades?: number;
+  rank: Rank;
+  minis: number;
+  wounds: number;
+  courage?: number;
+  resilience?: number;
+  defense: DefenseDice;
+  surge: Surge;
+  speed: number;
+  slots: Slot[];
+  keywords: KeywordType[];
+  weapons: Weapon[];
+  upgrades?: Upgrades;
+  commandCards?: string[];
+  entourage?: string[];
 };
 
 export type UnitType =
@@ -128,62 +124,62 @@ export type UnitType =
   | 'Repulsor Vehicle';
 
 export type Restriction = {
-  name: string,
-  ldf: string,
-}
+  name: string;
+  ldf: string;
+};
 
 export type Upgrade = {
-  ldf: string,
-  name: string,
-  side?: Side,
-  unique?: boolean,
-  description?: string,
-  exhaust?: boolean,
-  restrictions?: Restriction[],
-  factionRestrictions?: Faction[],
-  unitTypeExclusions?: UnitType[],
-  unitTypeRestrictions?: UnitType[],
-  slot: Slot,
-  points: number,
-  printed_points?: number,
-  keywords?: KeywordType[],
-  weapon?: Weapon,
+  ldf: string;
+  name: string;
+  side?: Side;
+  unique?: boolean;
+  description?: string;
+  exhaust?: boolean;
+  restrictions?: Restriction[];
+  factionRestrictions?: Faction[];
+  unitTypeExclusions?: UnitType[];
+  unitTypeRestrictions?: UnitType[];
+  slot: Slot;
+  points: number;
+  printed_points?: number;
+  keywords?: KeywordType[];
+  weapon?: Weapon;
 };
 
 export type Upgrades = {
-  armament?: Upgrade[],
-  command?: Upgrade[],
-  comms?: Upgrade[],
-  force?: Upgrade[],
-  gear?: Upgrade[],
-  generator?: Upgrade[],
-  grenades?: Upgrade[],
-  gunner?: Upgrade[],
-  hardpoint?: Upgrade[],
-  heavy?: Upgrade[],
-  ordnance?: Upgrade[],
-  personnel?: Upgrade[],
-  pilot?: Upgrade[],
-  training?: Upgrade[],
+  armament?: Upgrade[];
+  command?: Upgrade[];
+  comms?: Upgrade[];
+  force?: Upgrade[];
+  gear?: Upgrade[];
+  generator?: Upgrade[];
+  grenades?: Upgrade[];
+  gunner?: Upgrade[];
+  hardpoint?: Upgrade[];
+  heavy?: Upgrade[];
+  ordnance?: Upgrade[];
+  personnel?: Upgrade[];
+  pilot?: Upgrade[];
+  training?: Upgrade[];
 };
 
 export type Weapon = {
-  name?: string,
-  range: { from: number, to?: number },
-  dice: AttackDice,
-  keywords?: KeywordType[],
-  surge?: Surge,
+  name?: string;
+  range: { from: number; to?: number };
+  dice: AttackDice;
+  keywords?: KeywordType[];
+  surge?: Surge;
 };
 
 export type CommandCard = {
-  ldf: string,
-  name: string,
-  pips: number,
-  orders: string,
-  description?: string,
-  restrictions?: Restriction[],
-  weapon?: Weapon,
-  keywords?: KeywordType[]
+  ldf: string;
+  name: string;
+  pips: number;
+  orders: string;
+  description?: string;
+  restrictions?: Restriction[];
+  weapon?: Weapon;
+  keywords?: KeywordType[];
 };
 
 export type KeywordType =
@@ -347,5 +343,4 @@ export type KeywordType =
   | 'Weak Point 1: Rear'
   | 'Weak Point 2: Rear'
   | 'Weak Point 1: Sides'
-  | 'Wheel Mode'
-
+  | 'Wheel Mode';

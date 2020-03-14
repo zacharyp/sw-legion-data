@@ -884,8 +884,8 @@ export var sources = [
         released: false,
         contents: {
             units: {
-                'cassianandor': 1,
-                'k2so': 1,
+                cassianandor: 1,
+                k2so: 1,
             },
             upgrades: {
                 crackshot: 1,
@@ -907,8 +907,8 @@ export var sources = [
         released: false,
         contents: {
             units: {
-                'idenversio': 1,
-                'id10': 1,
+                idenversio: 1,
+                id10: 1,
             },
             upgrades: {
                 idensdlt20arifle: 1,
@@ -930,7 +930,7 @@ export var sources = [
         released: true,
         contents: {
             units: {
-                'aattradefederationbattletank': 1,
+                aattradefederationbattletank: 1,
             },
             upgrades: {
                 hquplink: 1,
@@ -950,7 +950,7 @@ export var sources = [
         released: true,
         contents: {
             units: {
-                'tx130saberclassfightertank': 1,
+                tx130saberclassfightertank: 1,
             },
             upgrades: {
                 hquplink: 1,
@@ -972,7 +972,7 @@ export var sources = [
         released: true,
         contents: {
             units: {
-                'b2superbattlebattledroids': 1,
+                b2superbattlebattledroids: 1,
             },
             upgrades: {
                 hquplink: 1,
@@ -990,7 +990,7 @@ export var sources = [
         released: true,
         contents: {
             units: {
-                'phaseiiclonetroopers': 1,
+                phaseiiclonetroopers: 1,
             },
             upgrades: {
                 grapplinghooks: 1,

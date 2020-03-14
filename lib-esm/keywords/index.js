@@ -294,7 +294,7 @@ export var keywords = [
     },
     {
         name: 'Icognito',
-        description: 'You cannot be attacked by enemy units beyond range 1, unless you have performed an attack or used an objective card action during this game.'
+        description: 'You cannot be attacked by enemy units beyond range 1, unless you have performed an attack or used an objective card action during this game.',
     },
     {
         name: 'Inconspicuous',
@@ -357,7 +357,7 @@ export var keywords = [
     },
     {
         name: 'Long Shot 1',
-        description: "While attacking, spend up to 1 aim token to increase this weapons's maximum range by 1 for each aim token spent."
+        description: "While attacking, spend up to 1 aim token to increase this weapons's maximum range by 1 for each aim token spent.",
     },
     {
         name: 'Low Profile',
@@ -369,7 +369,7 @@ export var keywords = [
     },
     {
         name: 'Marksman',
-        description: 'While attacking, you can spend aim tokens to improve attack die results.'
+        description: 'While attacking, you can spend aim tokens to improve attack die results.',
     },
     {
         name: 'Master of the Force 1',
@@ -517,7 +517,7 @@ export var keywords = [
     },
     {
         name: 'Small',
-        description: 'While defending, when determining line of sight, cover, and range, ignore this mini.'
+        description: 'While defending, when determining line of sight, cover, and range, ignore this mini.',
     },
     {
         name: 'Smoke 1',

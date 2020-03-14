@@ -8,14 +8,21 @@ import Support from './support';
 import Heavy from './heavy';
 
 export const unitsRecord: Record<Rank, Unit[]> = {
-  'Commander': Commander,
-  'Operative': Operative,
-  'Corps': Corps,
+  Commander: Commander,
+  Operative: Operative,
+  Corps: Corps,
   'Special Forces': Special,
-  'Support': Support,
-  'Heavy': Heavy
-}
+  Support: Support,
+  Heavy: Heavy,
+};
 
-export const allUnits: Unit[] = [Commander, Operative, Corps, Special, Support, Heavy].reduce((a, b) => a.concat(b))
+export const allUnits: Unit[] = [
+  Commander,
+  Operative,
+  Corps,
+  Special,
+  Support,
+  Heavy,
+].reduce((a, b) => a.concat(b));
 
-export default allUnits
+export default allUnits;

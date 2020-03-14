@@ -101,10 +101,12 @@ var upgrades = [
         name: 'DLT-19 Rifle Pintle',
         slot: 'Hardpoint',
         points: 18,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
                 ldf: 'tx225gavwoccupiercombatassaulttank',
-            }],
+            },
+        ],
         keywords: ['Impact 1'],
         weapon: {
             range: {
@@ -121,10 +123,12 @@ var upgrades = [
         name: 'RT-97C Rifle Pintle',
         slot: 'Hardpoint',
         points: 14,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
                 ldf: 'tx225gavwoccupiercombatassaulttank',
-            }],
+            },
+        ],
         weapon: {
             range: {
                 from: 1,
@@ -141,10 +145,12 @@ var upgrades = [
         name: 'Mark II Medium Blaster',
         slot: 'Hardpoint',
         points: 34,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'X-34 Landspeeder only',
                 ldf: 'x34landspeeder',
-            }],
+            },
+        ],
         keywords: ['Fixed: Front'],
         weapon: {
             range: {
@@ -162,10 +168,12 @@ var upgrades = [
         slot: 'Hardpoint',
         points: 38,
         exhaust: true,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'X-34 Landspeeder only',
                 ldf: 'x34landspeeder',
-            }],
+            },
+        ],
         keywords: ['Fixed: Front', 'Impact 1', 'Ion 1'],
         weapon: {
             range: {
@@ -183,10 +191,12 @@ var upgrades = [
         name: 'TX-130 Beam Cannon Turret',
         slot: 'Hardpoint',
         points: 30,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'TX-130 Saber-class Fighter Tank only',
                 ldf: 'tx130saberclassfightertank',
-            }],
+            },
+        ],
         keywords: ['Beam 2'],
         weapon: {
             range: {
@@ -203,10 +213,12 @@ var upgrades = [
         name: 'TX-130 Twin Laser Turret',
         slot: 'Hardpoint',
         points: 14,
-        restrictions: [{
+        restrictions: [
+            {
                 name: 'TX-130 Saber-class Fighter Tank only',
                 ldf: 'tx130saberclassfightertank',
-            }],
+            },
+        ],
         keywords: ['Critical 1'],
         weapon: {
             range: {

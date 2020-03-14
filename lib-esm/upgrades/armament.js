@@ -253,9 +253,7 @@ var upgrades = [
         ldf: 'idenstl50repeater',
         name: "Iden's TL-50 Repeater",
         points: 15,
-        restrictions: [
-            { name: 'Iden Versio only', ldf: 'idenversio' },
-        ],
+        restrictions: [{ name: 'Iden Versio only', ldf: 'idenversio' }],
         slot: 'Armament',
         weapon: {
             name: "Iden's TL-50 Repeater",
@@ -268,9 +266,7 @@ var upgrades = [
         ldf: 'idensdlt20arifle',
         name: "Iden's DLT-20A Rifle",
         points: 15,
-        restrictions: [
-            { name: 'Iden Versio only', ldf: 'idenversio' },
-        ],
+        restrictions: [{ name: 'Iden Versio only', ldf: 'idenversio' }],
         slot: 'Armament',
         weapon: {
             name: "Iden's DLT-20A Rifle",

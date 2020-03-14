@@ -1,4 +1,3 @@
-
 import { Upgrade } from '../types/index';
 
 const upgrades: Upgrade[] = [
@@ -41,7 +40,6 @@ const upgrades: Upgrade[] = [
       dice: { red: 1, black: 2 },
     },
   },
-
 ];
 
 export default upgrades;

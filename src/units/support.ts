@@ -1,11 +1,10 @@
-
 import { Unit } from '../types/index';
 
-const units: Unit[] =  [
+const units: Unit[] = [
   {
     ldf: 'atrt',
     name: 'AT-RT',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 55,
     rank: 'Support',
     type: 'Vehicle',
@@ -34,7 +33,7 @@ const units: Unit[] =  [
   {
     ldf: '74zspeederbikes',
     name: '74-Z Speeder Bikes',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 75,
     printed_points: 90,
     rank: 'Support',
@@ -64,7 +63,7 @@ const units: Unit[] =  [
   {
     ldf: 'ewebheavyblasterteam',
     name: 'E-Web Heavy Blaster Team',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 55,
     rank: 'Support',
     type: 'Emplacement Trooper',
@@ -98,7 +97,7 @@ const units: Unit[] =  [
   {
     ldf: '14fdlasercannonteam',
     name: '1.4 FD Laser Cannon Team',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 70,
     rank: 'Support',
     type: 'Emplacement Trooper',
@@ -132,7 +131,7 @@ const units: Unit[] =  [
   {
     ldf: 'tauntaunriders',
     name: 'Tauntaun Riders',
-    factions: ["rebel"],
+    factions: ['rebel'],
     points: 90,
     rank: 'Support',
     type: 'Creature Trooper',
@@ -143,7 +142,13 @@ const units: Unit[] =  [
     surge: { attack: 'hit', defense: 'block' },
     speed: 3,
     slots: ['Comms', 'Training'],
-    keywords: ['Agile 1', 'Relentless', 'Reposition', 'Sharpshooter 1', 'Unhindered'],
+    keywords: [
+      'Agile 1',
+      'Relentless',
+      'Reposition',
+      'Sharpshooter 1',
+      'Unhindered',
+    ],
     weapons: [
       {
         name: 'Horns & Hind Claws',
@@ -161,7 +166,7 @@ const units: Unit[] =  [
   {
     ldf: 'droidekas',
     name: 'Droidekas',
-    factions: ["separatist"],
+    factions: ['separatist'],
     points: 100,
     rank: 'Support',
     type: 'Ground Vehicle',
@@ -185,7 +190,7 @@ const units: Unit[] =  [
   {
     ldf: 'barcspeeder',
     name: 'BARC Speeder',
-    factions: ["republic"],
+    factions: ['republic'],
     points: 75,
     rank: 'Support',
     type: 'Repulsor Vehicle',
@@ -209,7 +214,7 @@ const units: Unit[] =  [
   {
     ldf: 'dewbackrider',
     name: 'Dewback Rider',
-    factions: ["imperial"],
+    factions: ['imperial'],
     points: 90,
     rank: 'Support',
     type: 'Creature Trooper',

@@ -1,4 +1,3 @@
-
 import { Upgrade } from '../types/index';
 
 const upgrades: Upgrade[] = [
