@@ -602,5 +602,42 @@ export const commandCards: CommandCard[] = [
     description:
       'When Cassian Andor issues an order to a [Commander], [Operative], or [Special Forces] unit, that unit recovers, gains [Danger Sense 1], and may gain 1 supression token.'
   },
-];
+  {
+    ldf: 'incapacitate',
+    name: 'Incapacitate',
+    pips: 2,
+    orders: 'Iden Versio',
+    description:
+      "During Iden Versio's activation, you may choose an enemy trooper unit at range 1 and in line of sight of Iden's ID10 Seeker Droid. That unit gains 3 supression tokens. Then, if it is a [Corps] unit that has not activated this round, assign it a facedown order token from its order pool or flip its order token facedown."
+  },  
+  {
+    ldf: 'pulsescan',
+    name: 'Pulse Scan',
+    pips: 1,
+    orders: 'Iden Versio',
+    description:
+      'Iden Versio gains [Sharpshooter 2] and 1 aim token. At the end of her activation, she gains 1 dodge token and 1 standby token.'
+  },
+  {
+    ldf: 'concussiveblast',
+    name: 'Concussive Blast',
+    pips: 2,
+    orders: 'Iden Versio',
+    description:
+      "When Iden Versio activates, she recovers. During Iden Versio's activation, she gains the following weapon",
+    weapon: {
+      range: { from: 1, to: 2 },
+      dice: { red: 5 },
+      keywords: ['Blast', 'Scatter', 'Suppressive'],
+    },  
+  },
+  {
+    ldf: 'tacticalstrike',
+    name: 'Tactical Strike',
+    pips: 3,
+    orders: 'Iden Versio & 3 Troopers',
+    description:
+      'When Iden Versio or a friendly [Operative] unit that has a faceup order token activates, it may reduce its maximum speed to 1. If it does, it gains [Steady] and [Tactical 1].'
+  },
 
+];

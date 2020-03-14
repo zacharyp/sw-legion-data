@@ -473,6 +473,39 @@ var units = [
         ],
         commandCards: ['crackshot', 'sacrifice', 'laststand', 'volunteermission'],
     },
+    {
+        ldf: 'idenversio',
+        unique: true,
+        name: 'Iden Versio',
+        subtitle: 'Inerno Squad Leader',
+        factions: ['imperial'],
+        type: 'Trooper',
+        points: 100,
+        rank: 'Commander',
+        minis: 1,
+        wounds: 6,
+        courage: 3,
+        defense: 'red',
+        surge: { attack: 'hit' },
+        speed: 2,
+        slots: ['Training', 'Training', 'Gear', 'Armament'],
+        keywords: ['Quick Thinking', 'Covert Ops', 'Loadout', 'Marksman', 'Nimble'],
+        weapons: [
+            {
+                name: 'Advanced Combat Training',
+                range: { from: 0 },
+                dice: { red: 2 },
+                keywords: [],
+            },
+            {
+                name: "Iden's E-11 Blaster Rifle",
+                range: { from: 1, to: 2 },
+                dice: { white: 3 },
+                keywords: ['Pierce 1'],
+            },
+        ],
+        commandCards: ['pulsescan', 'concussiveblast', 'tacticalstrike', 'incapacitate'],
+    },
 ];
 export default units;
 //# sourceMappingURL=commander.js.map

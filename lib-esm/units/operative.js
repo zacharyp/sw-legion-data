@@ -269,6 +269,32 @@ var units = [
         ],
         commandCards: ['sacrifice'],
     },
+    {
+        ldf: 'idensid10seekerdroid',
+        unique: true,
+        name: "Iden's ID10 Seeker Droid",
+        subtitle: 'Droid',
+        factions: ['imperial'],
+        type: 'Droid Trooper',
+        points: 15,
+        rank: 'Operative',
+        minis: 1,
+        wounds: 1,
+        defense: 'red',
+        surge: { attack: 'crit' },
+        speed: 2,
+        slots: ['Comms'],
+        keywords: ['Counterpart: Iden Versio', 'Recharge 1', 'Shielded 1', 'Small'],
+        weapons: [
+            {
+                name: 'Electro-Shock',
+                range: { from: 0 },
+                dice: { white: 1 },
+                keywords: ['Suppressive'],
+            },
+        ],
+        commandCards: ['incapacitate'],
+    },
 ];
 export default units;
 //# sourceMappingURL=operative.js.map

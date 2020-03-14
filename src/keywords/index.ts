@@ -121,6 +121,11 @@ export const keywords: Keyword[] = [
       'While building an army, this mini must be added to an R2-D2 unit.',
   },
   {
+    name: 'Counterpart: Iden Versio',
+    description:
+      'While building an army, this mini must be added to an Iden Versio unit.',
+  },
+  {
     name: 'Critical 1',
     description:
       'While a unit with the critical 1 keyword converts attack surges, it may convert up to 1 surge ([Surge]) results to critical ([Crit]]) results.',
@@ -513,6 +518,10 @@ export const keywords: Keyword[] = [
     description: 'When you recover, flip 2 inactive shield tokens',
   },
   {
+    name: 'Recharge 1',
+    description: 'When you recover, flip 1 inactive shield tokens',
+  },
+  {
     name: 'Reconfigure',
     description: 'When you recover, you may flip this card.',
   },
@@ -596,6 +605,10 @@ export const keywords: Keyword[] = [
     description: 'You have 4 shield tokens.',
   },
   {
+    name: 'Shielded 1',
+    description: 'You have 1 shield tokens.',
+  },
+  {
     name: 'Shielded 2',
     description: 'You have 2 shield tokens.',
   },
@@ -603,6 +616,11 @@ export const keywords: Keyword[] = [
     name: 'Sidearm: Melee',
     description:
       'While performing a melee attack, this model can only use the weapon on this card.',
+  },
+  {
+    name: 'Small',
+    description:
+      'While defending, when determining line of sight, cover, and range, ignore this mini.'
   },
   {
     name: 'Smoke 1',
