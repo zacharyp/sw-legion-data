@@ -26,15 +26,16 @@
     "clean": "shx rm -rf _bundles lib lib-esm",
     "build": "yarn clean && tsc && tsc -m es6 --outDir lib-esm && webpack && yarn json",
     "build-simple": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "yarn prettier --write 'src/**/*.ts'",
     "json": "ts-node --skip-project scripts/tojson.ts",
     "patch": "release-it patch",
     "minor": "release-it minor",
-    "major": "release-it major"
+    "major": "release-it major",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "pnp-webpack-plugin": "^1.6.4",
-    "prettier": "^1.13.4",
+    "prettier": "^1.19.1",
     "release-it": "^12.3.6",
     "shx": "^0.3.2",
     "ts-loader": "^6.2.1",
