@@ -24,7 +24,7 @@
   ],
   "scripts": {
     "clean": "shx rm -rf _bundles lib lib-esm",
-    "build": "yarn clean && tsc && tsc -m es6 --outDir lib-esm && webpack && yarn json",
+    "build": "yarn clean && yarn pretty && tsc && tsc -m es6 --outDir lib-esm && webpack && yarn json",
     "build-simple": "tsc",
     "pretty": "yarn prettier --write 'src/**/*.ts'",
     "json": "ts-node --skip-project scripts/tojson.ts",
